@@ -1,0 +1,35 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = "MVCOuterLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+   
+    <link href="/default.css" rel="stylesheet" />
+    @Html.Sitecore().VisitorIdentification()
+    </head>
+    <body>
+        <div id="MainPanel">
+
+            <div id="CenterColumn">
+
+                <div id="InnerCenter">
+                    <div id="Header">
+                        <img src="-/media/Default Website/sc_logo.ashx" alt="Sitecore" id="scLogo" />
+                    </div>
+                    <div id="Content">
+                        <div id="LeftContent">
+                            <div>
+                                @Html.Sitecore().Placeholder("main")
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Footer"><hr class="divider" />&#169; 2018 Sitecore</div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

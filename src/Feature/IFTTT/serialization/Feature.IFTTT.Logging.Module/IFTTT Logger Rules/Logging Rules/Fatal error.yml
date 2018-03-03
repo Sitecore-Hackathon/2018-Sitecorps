@@ -1,0 +1,38 @@
+﻿---
+ID: "27e279f3-1a3c-4818-ad37-ad242ef9a79a"
+Parent: "9c3bbe7e-da75-43b6-9eae-e0678cef6e2c"
+Template: "11d160cf-d33e-4343-b7b8-83bd7a5d4657"
+Path: /sitecore/system/Modules/IFTTT Logger Rules/Logging Rules/Fatal error
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T111041Z
+    - ID: "2899b8f9-70c2-4b53-a89c-872cfc7e2047"
+      Hint: Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule
+            uid="{5C3AC19C-3279-4F12-A55F-317A185296E3}">
+            <conditions>
+              <condition
+                id="{DECBD60C-47E0-4120-87BA-CD590C07698E}"
+                uid="9F4C28E178604927A3F37948BC141235"
+                operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                logText="Job started: Sitecore.ListManagement.Operations.UpdateListOperationsAgent"
+                logCount="100000" />
+            </conditions>
+            <actions>
+              <action
+                id="{251335EB-058E-4B19-8764-F966B90036B2}"
+                uid="43A83EB413DA4B128B2C27CF4F57C284"
+                IftttEventId="{4E90DB5E-44F9-45BB-A864-E88FC0F781D2}"
+                IftttAccountId="{823DA315-2550-4000-8B35-952B3E311EBF}" />
+            </actions>
+          </rule>
+        </ruleset>

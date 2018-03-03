@@ -1,0 +1,21 @@
+﻿---
+ID: "4e90db5e-44f9-45bb-a864-e88fc0f781d2"
+Parent: "defad90e-a558-4690-adf6-d36f0674f2f8"
+Template: "f858854c-9273-48f1-b7eb-6df94fcefe14"
+Path: /sitecore/system/Modules/IFTTT/Events/FatalErrorLogs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T143230Z
+    - ID: "514e2d42-262c-48b1-bdfa-e6244da96d1e"
+      Hint: Event
+      Value: FatalErrorLogs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
