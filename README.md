@@ -1,38 +1,87 @@
-![Hackathon Logo](documentation/images/login.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/login.png?raw=true "Module Logo")
 
-# Submission Boilerplate
+# Sitecore ConneX with IFTTT
 
-Welcome to Sitecore Hackathon 2018.
+## Module Purpose
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2018/
+"Sitecore ConneX with IFTTT module" is based on the If This Then That, also known as IFTTT , is a free web-based service to create chains of simple conditional statements, called applets.An applet is triggered by changes that occur within other web services.
 
-This purpose of repository is to provide a sample which shows how to structure the Hackathon submissions. We highly recommend
+## Usage examples
+
+1. IFTTT can automate web-application tasks, such as posting the same content on several social networks.
+2. Marketing professionals can use IFTTT to track mentions of companies in RSS feeds.
+3. IFTTT is also used in a wide range of home automation use cases, for instance switching on a light when detection motion in a room (with associated compliant devices).
+
+IFTTT currently supports more than 110 services (also called "channels") including Android devices and Apple iOS apps like Reminders and Photos, as well as websites like Facebook, Instagram, Flickr, Tumblr, Google Calendar, Google Drive, Etsy, Feedly, Foursquare, LinkedIn, SoundCloud, WordPress, YouTube, and more.
+
+## What we have in "Sitecore ConneX with IFTTT":
+
+We created a sample for integration with IFTTT, we used Sitecore 9 xConnect, marketing automation, forms and logging, as follows:
+
+### 1. Marketing Automation.
+
+In this part we are monitoring spacific threshold and once this reached then IFTTT will send you a notfication. 
 
 
-## Entry Submission Requirements 
+### 2. Logging
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday March 3rd 2018 at 8PM EST**. The modules should be based on [Sitecore 9.0 rev. 171219 (Update-1)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/90/Sitecore_Experience_Platform_90_Update1.aspx).
+We created a new rule using sitecore rule engine to minitor the log and trigger once spacific log happened a spacific number of times which will send you a notification using IFTTT.
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
 
-- Sitecore 9.0 Update 1 Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+### 3. Sitecore forms --> IFTTT --> Sales Force
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+We created new custom action "Sales Force Lead" that will trigger an event in IFTTT that will create a new lead in sales force. 
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
+## Module Sitecore Hackathon Category
 
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+xConnect.
+
+## How does the end user use the Module?
+
+Following is a step by step description with screenshots of how you can use the module:
+
+1. User needs to have IFTT account under: https://platform.ifttt.com/ and https://platform.ifttt.com/.
+
+2. Once user has the above, user can create webhocks to be called by any type of trigger from within Sitecore, following are screenshots for creating a new applet (platform.IFTTT site) in addition to service at ( IFTTT site ).
+
+
+![Module Logo](documentation/images/IFTTT_Platform_New Applet.png?raw=true "Hackathon Logo")
+
+Create new applet 1
+
+![Module Logo](documentation/images/Create New Applet.png?raw=true "Hackathon Logo")
+
+Create new applet 2
+
+![Module Logo](documentation/images/IFTTT_Service.png?raw=true "Hackathon Logo")
+
+IFTTT Service
+
+3. Once you have the above you can go to sitecore and set an account and event under module defintion:
+
+![Module Logo](documentation/images/System_Modules_IFTTT.png?raw=true "Hackathon Logo")
+
+following is even item:
+
+![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "Hackathon Logo")
+
+Following is an account item:
+
+
+![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "Hackathon Logo")
+
+
+4. Now you can use any of the integrations we already built, like as example logging using the rule engine as follows:
+
+![Module Logo](documentation/images/System_Modules_IFTTT_Logging.png?raw=true "Hackathon Logo")
+
+also, you can check the Sales force lead custom save action using sitecore forms as following:
+
+![Module Logo](documentation/images/Custom Save Action.png?raw=true "Hackathon Logo")
+
+
+
+
+
+
