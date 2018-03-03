@@ -29,7 +29,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 	ProjectSection(SolutionItems) = preProject
 		documentation\images\Create_New_Applet.png = documentation\images\Create_New_Applet.png
 		documentation\images\Custom_Save_Action.png = documentation\images\Custom_Save_Action.png
-		documentation\images\deal-with-it.gif = documentation\images\deal-with-it.gif
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 		documentation\images\IFTTT_Platform_New_Applet.png = documentation\images\IFTTT_Platform_New_Applet.png
 		documentation\images\IFTTT_Service.png = documentation\images\IFTTT_Service.png
