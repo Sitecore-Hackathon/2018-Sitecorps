@@ -1,20 +1,20 @@
 ﻿---
-ID: "11d160cf-d33e-4343-b7b8-83bd7a5d4657"
-Parent: "26a7a628-60b6-4462-b4d2-d73b93047507"
+ID: "ccc2b317-f7bc-42ba-97d4-b32431964795"
+Parent: "6adf26bb-4319-4593-b47d-f39001d5db91"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/IFTTT Logging/Logging Rule
+Path: /sitecore/templates/Feature/IFTTT/Rules/Event Rules Folder
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Software/32x32/shape_ellipse.png
+  Value: Apps/32x32/Flash.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{2C2ADDE3-2853-4F29-A849-7E097D714B49}"
+  Value: "{ABBC3D19-1FF8-4D39-9648-C69F4489BE2F}"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T091342Z
+      Value: 20180303T090516Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

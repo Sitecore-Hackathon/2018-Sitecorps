@@ -1,13 +1,17 @@
 ﻿---
-ID: "60027e5c-5424-4ebf-9b0b-7c86c643feca"
+ID: "79880b70-af3d-41c2-81f4-f461ab62e814"
 Parent: "bf0897fb-c36c-4c08-bf74-6816ebddcafa"
 Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
-Path: /sitecore/system/Modules/IFTTT/Settings
+Path: /sitecore/system/Modules/IFTTT/Rules
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 200
 Languages:
 - Language: en
   Versions:

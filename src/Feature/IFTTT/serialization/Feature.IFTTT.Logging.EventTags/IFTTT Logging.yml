@@ -6,6 +6,9 @@ Path: /sitecore/system/Settings/Rules/Definitions/Tags/IFTTT Logging
 DB: master
 BranchID: "60e3e35b-cef9-4afa-9f89-204ed015ccb9"
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/antenna.png
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{0C559214-E3B6-418E-9E1C-8AF7B19FC20B}"

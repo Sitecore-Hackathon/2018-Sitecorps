@@ -2,7 +2,7 @@
 ID: "27e279f3-1a3c-4818-ad37-ad242ef9a79a"
 Parent: "9c3bbe7e-da75-43b6-9eae-e0678cef6e2c"
 Template: "11d160cf-d33e-4343-b7b8-83bd7a5d4657"
-Path: /sitecore/system/Modules/IFTTT Logger Rules/Logging Rules/Fatal error
+Path: /sitecore/system/Modules/IFTTT/Rules/Global Logging Rules/Fatal error
 DB: master
 Languages:
 - Language: en

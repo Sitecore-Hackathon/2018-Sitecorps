@@ -6,7 +6,7 @@ namespace Community.Feature.IFTTT.Constants
     {
         public struct GlobalRules
         {
-            public static readonly ID EventRules = new ID("{7515CB60-866A-4602-91DA-646E6F665069}");            
+            public static readonly ID EventRules = new ID("{775F8FCE-09A7-4216-9C5B-BA3A4CE92C9B}");            
         }
 
         public struct ValueOptions

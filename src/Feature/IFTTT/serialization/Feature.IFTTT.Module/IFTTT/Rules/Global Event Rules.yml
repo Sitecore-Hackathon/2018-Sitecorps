@@ -1,0 +1,14 @@
+﻿---
+ID: "775f8fce-09a7-4216-9c5b-ba3a4ce92c9b"
+Parent: "79880b70-af3d-41c2-81f4-f461ab62e814"
+Template: "ccc2b317-f7bc-42ba-97d4-b32431964795"
+Path: /sitecore/system/Modules/IFTTT/Rules/Global Event Rules
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T200306Z

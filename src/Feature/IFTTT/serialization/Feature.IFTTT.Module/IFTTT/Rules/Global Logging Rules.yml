@@ -1,8 +1,8 @@
 ﻿---
 ID: "9c3bbe7e-da75-43b6-9eae-e0678cef6e2c"
-Parent: "5e3e39fe-19a3-40ca-be0c-c6d9a7f571cc"
+Parent: "79880b70-af3d-41c2-81f4-f461ab62e814"
 Template: "ee854a7e-84ad-4067-ba12-12dbef278864"
-Path: /sitecore/system/Modules/IFTTT Logger Rules/Logging Rules
+Path: /sitecore/system/Modules/IFTTT/Rules/Global Logging Rules
 DB: master
 Languages:
 - Language: en

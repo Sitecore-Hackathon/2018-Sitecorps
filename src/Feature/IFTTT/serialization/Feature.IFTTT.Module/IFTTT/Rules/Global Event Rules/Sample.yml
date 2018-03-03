@@ -1,8 +1,8 @@
 ﻿---
 ID: "528bcc68-29b0-4096-9439-a79a789d56af"
-Parent: "7515cb60-866a-4602-91da-646e6f665069"
+Parent: "775f8fce-09a7-4216-9c5b-ba3a4ce92c9b"
 Template: "ea6fe320-8507-4f0b-9573-d4bf44df6940"
-Path: /sitecore/system/Settings/Rules/IFTTT Events/Rules/Sample
+Path: /sitecore/system/Modules/IFTTT/Rules/Global Event Rules/Sample
 DB: master
 SharedFields:
 - ID: "9c376c81-50ee-4b57-899c-3f91fa97be51"
