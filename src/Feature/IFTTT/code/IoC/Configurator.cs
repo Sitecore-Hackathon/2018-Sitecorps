@@ -10,7 +10,6 @@ namespace Community.Feature.IFTTT.IoC
         {
             serviceCollection.AddSingleton( typeof(IThresholdService), typeof(ThresholdService) );
             serviceCollection.AddTransient( typeof(IIftttService), typeof(IftttService) );
-            serviceCollection.AddTransient( typeof(IRulesService), typeof(RulesService) );
         }
     }
 }
