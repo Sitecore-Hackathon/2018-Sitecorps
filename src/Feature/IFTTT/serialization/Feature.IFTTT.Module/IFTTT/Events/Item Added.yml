@@ -1,8 +1,8 @@
 ﻿---
-ID: "039c48d7-0a80-4f77-a199-6bfe09b705e4"
+ID: "6c06175a-846f-436c-a49a-8462f67a27a5"
 Parent: "defad90e-a558-4690-adf6-d36f0674f2f8"
 Template: "f858854c-9273-48f1-b7eb-6df94fcefe14"
-Path: /sitecore/system/Modules/IFTTT/Events/Sales Force Lead
+Path: /sitecore/system/Modules/IFTTT/Events/Item Added
 DB: master
 Languages:
 - Language: en
@@ -11,10 +11,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T084026Z
+      Value: 20180224T182254Z
     - ID: "514e2d42-262c-48b1-bdfa-e6244da96d1e"
       Hint: Event
-      Value: Form_Submitted
+      Value: sitecore_event
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
