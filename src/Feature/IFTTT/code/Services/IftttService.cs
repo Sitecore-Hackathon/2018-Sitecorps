@@ -41,7 +41,7 @@ namespace Community.Feature.IFTTT.Services
                 var value2 = GetValue(2, values);
                 var value3 = GetValue(3, values);
                 
-                var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}?Value1={value1}&Value1={value2}&Value1={value3}";
+                var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}?value1={value1}&value2={value2}&value3={value3}";
 
                 Log.Info($"IFTTT Trigger service: {url}", this);
                 var response = Task.Run(()=> client.GetAsync(url)).Result;
