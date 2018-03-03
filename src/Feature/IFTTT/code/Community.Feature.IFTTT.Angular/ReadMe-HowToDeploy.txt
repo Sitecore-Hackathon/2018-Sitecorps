@@ -10,3 +10,13 @@ npm install webpack ts-loader --save-dev
 3. From solution root run:
     (first verify paths in VS Solution folder "Configuration" > "Scripts" > package.json):
 npm run dev
+npm run build
+
+------------------
+
+Result is then available here:
+[solution root]\dist\ifttt.plugin.js
+
+Copy .js file to this location:
+C:\inetpub\wwwroot\sc901\sitecore\shell\client\Applications\MarketingAutomation\plugins\IFTTT
+                     ^---- Or whatever your local web directory is

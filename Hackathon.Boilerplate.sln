@@ -46,6 +46,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0BF6AB64-0038-4DB5-BFBF-D09917A378AF}"
 	ProjectSection(SolutionItems) = preProject
 		package.json = package.json
+		webpack.config.js = webpack.config.js
 	EndProjectSection
 EndProject
 Global

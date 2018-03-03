@@ -5,7 +5,7 @@
   "private": true,
   "angular-cli": {},
     "scripts": {
-        "dev": "ngc -p ./src/Feature/IFTTT/code/Community.Feature.IFTTT.Angular/tsconfig.aot.json && npm run build",
+        "dev": "ngc -p ./src/Feature/IFTTT/code/Community.Feature.IFTTT.Angular/tsconfig.aot.json",
         "build": "webpack --display-error-details"
     },
   "dependencies": {
@@ -13,7 +13,7 @@
     "@angular/core": "4.3.5",
     "@angular/forms": "4.3.5",
     "@angular/http": "4.3.5",
-    "@angular/platform-browser": "^4.4.0-RC.0",
+    "@angular/platform-browser": "4.3.5",
     "@ngx-translate/core": "^7.2.0",
     "@sitecore/ma-core": "file:C:\\inetpub\\wwwroot\\sc901\\sitecore\\shell\\client\\Applications\\MarketingAutomation\\packages\\ma-core",
     "rxjs": "^5.4.3",

@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/Feature/IFTTT/code/ifttt.plugin.ts',
+    entry: './src/Feature/IFTTT/code/Community.Feature.IFTTT.Angular/ifttt.plugin.ts',
     module: {
         rules: [
             {

@@ -8,37 +8,126 @@
 
 import * as i0 from '@angular/core';
 import * as i1 from './ifttt-editor.component';
-const styles_IftttEditorComponent:any[] = [''];
-export const RenderType_IftttEditorComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:0,
+import * as i2 from '@angular/forms';
+const styles_IftttEditorComponent:any[] = ([] as any[]);
+export const RenderType_IftttEditorComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
     styles:styles_IftttEditorComponent,data:{}});
 export function View_IftttEditorComponent_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵted((null as any),['\n        '])),(_l()(),i0.ɵeld(0,
-      (null as any),(null as any),13,'section',[['class','content']],(null as any),
+      (null as any),(null as any),27,'section',[['class','content']],(null as any),
       (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-      ['\n            '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),10,'div',
+      ['\n            '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),24,'div',
       [['class','form-group']],(null as any),(null as any),(null as any),(null as any),
       (null as any))),(_l()(),i0.ɵted((null as any),['\n                '])),(_l()(),
-      i0.ɵeld(0,(null as any),(null as any),7,'div',[['class','row ifttt-editor']],
+      i0.ɵeld(0,(null as any),(null as any),21,'div',[['class','row ifttt-editor']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
       (_l()(),i0.ɵted((null as any),['\n                    '])),(_l()(),i0.ɵeld(0,
           (null as any),(null as any),1,'label',[['class','col-6 title']],(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
           ['IFTTT editor'])),(_l()(),i0.ɵted((null as any),['\n                    '])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'div',[['class','col-6']],(null as any),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),15,'div',[['class','col-6']],(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['\n						\n                    '])),(_l()(),i0.ɵted((null as any),['\n                '])),
-      (_l()(),i0.ɵted((null as any),['\n            '])),(_l()(),i0.ɵted((null as any),
-          ['\n        '])),(_l()(),i0.ɵted((null as any),['\n    ']))],(null as any),
-      (null as any));
+          ['\n						'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class',
+          'minus-icon']],(null as any),[[(null as any),'click']],(_v,en,$event) => {
+        var ad:boolean = true;
+        var _co:i1.IftttEditorComponent = _v.component;
+        if (('click' === en)) {
+          const pd_0:any = ((<any>_co.decreaseValue()) !== false);
+          ad = (pd_0 && ad);
+        }
+        return ad;
+      },(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['-'])),(_l()(),
+          i0.ɵted((null as any),['\n                        '])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),6,'input',[['class','form-control'],['type',
+              'number']],[[2,'ng-untouched',(null as any)],[2,'ng-touched',(null as any)],
+              [2,'ng-pristine',(null as any)],[2,'ng-dirty',(null as any)],[2,'ng-valid',
+                  (null as any)],[2,'ng-invalid',(null as any)],[2,'ng-pending',(null as any)]],
+          [[(null as any),'ngModelChange'],[(null as any),'input'],[(null as any),
+              'blur'],[(null as any),'compositionstart'],[(null as any),'compositionend'],
+              [(null as any),'change']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i1.IftttEditorComponent = _v.component;
+            if (('input' === en)) {
+              const pd_0:any = ((<any>i0.ɵnov(_v,16)._handleInput($event.target.value)) !== false);
+              ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+              const pd_1:any = ((<any>i0.ɵnov(_v,16).onTouched()) !== false);
+              ad = (pd_1 && ad);
+            }
+            if (('compositionstart' === en)) {
+              const pd_2:any = ((<any>i0.ɵnov(_v,16)._compositionStart()) !== false);
+              ad = (pd_2 && ad);
+            }
+            if (('compositionend' === en)) {
+              const pd_3:any = ((<any>i0.ɵnov(_v,16)._compositionEnd($event.target.value)) !== false);
+              ad = (pd_3 && ad);
+            }
+            if (('change' === en)) {
+              const pd_4:any = ((<any>i0.ɵnov(_v,17).onChange($event.target.value)) !== false);
+              ad = (pd_4 && ad);
+            }
+            if (('input' === en)) {
+              const pd_5:any = ((<any>i0.ɵnov(_v,17).onChange($event.target.value)) !== false);
+              ad = (pd_5 && ad);
+            }
+            if (('blur' === en)) {
+              const pd_6:any = ((<any>i0.ɵnov(_v,17).onTouched()) !== false);
+              ad = (pd_6 && ad);
+            }
+            if (('ngModelChange' === en)) {
+              const pd_7:any = ((<any>(_co.count = $event)) !== false);
+              ad = (pd_7 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i0.ɵdid(16384,(null as any),0,i2.DefaultValueAccessor,
+          [i0.Renderer2,i0.ElementRef,[2,i2.COMPOSITION_BUFFER_MODE]],(null as any),
+          (null as any)),i0.ɵdid(16384,(null as any),0,i2.ɵbc,[i0.Renderer2,i0.ElementRef],
+          (null as any),(null as any)),i0.ɵprd(1024,(null as any),i2.NG_VALUE_ACCESSOR,
+          (p0_0:any,p1_0:any) => {
+            return [p0_0,p1_0];
+          },[i2.DefaultValueAccessor,i2.ɵbc]),i0.ɵdid(671744,(null as any),0,i2.NgModel,
+          [[8,(null as any)],[8,(null as any)],[8,(null as any)],[2,i2.NG_VALUE_ACCESSOR]],
+          {model:[0,'model']},{update:'ngModelChange'}),i0.ɵprd(2048,(null as any),
+          i2.NgControl,(null as any),[i2.NgModel]),i0.ɵdid(16384,(null as any),0,i2.NgControlStatus,
+          [i2.NgControl],(null as any),(null as any)),(_l()(),i0.ɵted((null as any),
+          ['\n                        '])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'span',[['class','plus-icon']],(null as any),[[(null as any),'click']],
+          (_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i1.IftttEditorComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.increaseValue()) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['+'])),(_l()(),
+          i0.ɵted((null as any),['\n                    '])),(_l()(),i0.ɵted((null as any),
+          ['\n                '])),(_l()(),i0.ɵted((null as any),['\n            '])),
+      (_l()(),i0.ɵted((null as any),['\n        '])),(_l()(),i0.ɵted((null as any),
+          ['\n    ']))],(_ck,_v) => {
+    var _co:i1.IftttEditorComponent = _v.component;
+    const currVal_7:any = _co.count;
+    _ck(_v,19,0,currVal_7);
+  },(_ck,_v) => {
+    const currVal_0:any = i0.ɵnov(_v,21).ngClassUntouched;
+    const currVal_1:any = i0.ɵnov(_v,21).ngClassTouched;
+    const currVal_2:any = i0.ɵnov(_v,21).ngClassPristine;
+    const currVal_3:any = i0.ɵnov(_v,21).ngClassDirty;
+    const currVal_4:any = i0.ɵnov(_v,21).ngClassValid;
+    const currVal_5:any = i0.ɵnov(_v,21).ngClassInvalid;
+    const currVal_6:any = i0.ɵnov(_v,21).ngClassPending;
+    _ck(_v,15,0,currVal_0,currVal_1,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6);
+  });
 }
 export function View_IftttEditorComponent_Host_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'ifttt-editor',
       ([] as any[]),(null as any),(null as any),(null as any),View_IftttEditorComponent_0,
       RenderType_IftttEditorComponent)),i0.ɵdid(114688,(null as any),0,i1.IftttEditorComponent,
-      [i0.Injector],(null as any),(null as any))],(_ck,_v) => {
+      ([] as any[]),(null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }
 export const IftttEditorComponentNgFactory:i0.ComponentFactory<i1.IftttEditorComponent> = i0.ɵccf('ifttt-editor',
     i1.IftttEditorComponent,View_IftttEditorComponent_Host_0,{model:'model'},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovZ2l0L2lmdHR0L2lmdHR0L3NyYy9GZWF0dXJlL0lGVFRUL2NvZGUvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovZ2l0L2lmdHR0L2lmdHR0L3NyYy9GZWF0dXJlL0lGVFRUL2NvZGUvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQudHMiLCJuZzovLy9DOi9naXQvaWZ0dHQvaWZ0dHQvc3JjL0ZlYXR1cmUvSUZUVFQvY29kZS9pZnR0dC9lZGl0b3IvaWZ0dHQtZWRpdG9yLmNvbXBvbmVudC50cy5JZnR0dEVkaXRvckNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovZ2l0L2lmdHR0L2lmdHR0L3NyYy9GZWF0dXJlL0lGVFRUL2NvZGUvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQudHMuSWZ0dHRFZGl0b3JDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCJcbiAgICAgICAgPHNlY3Rpb24gY2xhc3M9XCJjb250ZW50XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzPVwiZm9ybS1ncm91cFwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9XCJyb3cgaWZ0dHQtZWRpdG9yXCI+XG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz1cImNvbC02IHRpdGxlXCI+SUZUVFQgZWRpdG9yPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz1cImNvbC02XCI+XG5cdFx0XHRcdFx0XHRcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9zZWN0aW9uPlxuICAgICIsIjxpZnR0dC1lZGl0b3I+PC9pZnR0dC1lZGl0b3I+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7b0JDQUEsK0NBQ1E7TUFBQTtNQUFBLDBEQUF5QjtNQUFBLHFCQUNyQjtNQUFBO01BQUEsZ0JBQXdCLHVEQUNwQjthQUFBO1VBQUE7TUFBOEIsMkRBQzFCO1VBQUE7VUFBQSwwREFBMkI7VUFBQSxtQkFBb0I7TUFDL0M7VUFBQSwwREFBbUI7VUFBQSxxQ0FFYjtNQUNKLG1EQUNKO1VBQUEsaUJBQ0E7Ozs7b0JDVmxCO01BQUE7cUNBQUEsVUFBQTtNQUFBO0lBQUE7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovZ2l0L0hhY2thdGhvbi8yMDE4LVNpdGVjb3Jwcy9zcmMvRmVhdHVyZS9JRlRUVC9jb2RlL0NvbW11bml0eS5GZWF0dXJlLklGVFRULkFuZ3VsYXIvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovZ2l0L0hhY2thdGhvbi8yMDE4LVNpdGVjb3Jwcy9zcmMvRmVhdHVyZS9JRlRUVC9jb2RlL0NvbW11bml0eS5GZWF0dXJlLklGVFRULkFuZ3VsYXIvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQudHMiLCJuZzovLy9DOi9naXQvSGFja2F0aG9uLzIwMTgtU2l0ZWNvcnBzL3NyYy9GZWF0dXJlL0lGVFRUL2NvZGUvQ29tbXVuaXR5LkZlYXR1cmUuSUZUVFQuQW5ndWxhci9pZnR0dC9lZGl0b3IvaWZ0dHQtZWRpdG9yLmNvbXBvbmVudC50cy5JZnR0dEVkaXRvckNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovZ2l0L0hhY2thdGhvbi8yMDE4LVNpdGVjb3Jwcy9zcmMvRmVhdHVyZS9JRlRUVC9jb2RlL0NvbW11bml0eS5GZWF0dXJlLklGVFRULkFuZ3VsYXIvaWZ0dHQvZWRpdG9yL2lmdHR0LWVkaXRvci5jb21wb25lbnQudHMuSWZ0dHRFZGl0b3JDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCJcbiAgICAgICAgPHNlY3Rpb24gY2xhc3M9XCJjb250ZW50XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzPVwiZm9ybS1ncm91cFwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9XCJyb3cgaWZ0dHQtZWRpdG9yXCI+XG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz1cImNvbC02IHRpdGxlXCI+SUZUVFQgZWRpdG9yPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz1cImNvbC02XCI+XG5cdFx0XHRcdFx0XHQ8c3BhbiBjbGFzcz1cIm1pbnVzLWljb25cIiAoY2xpY2spPVwiZGVjcmVhc2VWYWx1ZSgpXCI+LTwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwibnVtYmVyXCIgY2xhc3M9XCJmb3JtLWNvbnRyb2xcIiBbKG5nTW9kZWwpXT1cImNvdW50XCIvPlxuICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJwbHVzLWljb25cIiAoY2xpY2spPVwiaW5jcmVhc2VWYWx1ZSgpXCI+Kzwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9zZWN0aW9uPlxuICAgICIsIjxpZnR0dC1lZGl0b3I+PC9pZnR0dC1lZGl0b3I+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBLCtDQUNRO01BQUE7TUFBQSwwREFBeUI7TUFBQSxxQkFDckI7TUFBQTtNQUFBLGdCQUF3Qix1REFDcEI7YUFBQTtVQUFBO01BQThCLDJEQUMxQjtVQUFBO1VBQUEsMERBQTJCO1VBQUEsbUJBQW9CO01BQy9DO1VBQUEsMERBQW1CO1VBQUEsZUFDakM7VUFBQTtRQUFBO1FBQUE7UUFBeUI7VUFBQTtVQUFBO1FBQUE7UUFBekI7TUFBQSxnQ0FBbUQsc0NBQVE7aUJBQUEsZ0RBQ3pDO1VBQUE7Y0FBQTtjQUFBO2tCQUFBO1VBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQTBDO2NBQUE7Y0FBQTtZQUFBO1lBQTFDO1VBQUEsdUNBQUE7VUFBQTtVQUFBLHNCQUFBO1VBQUEsb0NBQUE7VUFBQTtZQUFBO1VBQUEsMkNBQUE7VUFBQTtVQUFBLHFEQUFBO3VCQUFBLG1DQUFBO1VBQUEsNENBQStEO1VBQUEsaUNBQy9EO1VBQUE7VUFBQTtZQUFBO1lBQUE7WUFBd0I7Y0FBQTtjQUFBO1lBQUE7WUFBeEI7VUFBQSxnQ0FBa0Qsc0NBQVE7aUJBQUEsNENBQ3hEO1VBQUEseUJBQ0o7TUFDSiwrQ0FDQTtVQUFBOztJQUxnRDtJQUExQyxZQUEwQyxTQUExQzs7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBLFlBQUEscUVBQUE7Ozs7b0JDUHhCO01BQUE7cUNBQUEsVUFBQTtNQUFBO0lBQUE7Ozs7In0=
