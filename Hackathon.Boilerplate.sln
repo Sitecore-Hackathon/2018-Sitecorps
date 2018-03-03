@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
@@ -27,14 +27,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\Custom Save Action.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\Custom Save Action.png
+		documentation\images\Create_New_Applet.png = documentation\images\Create_New_Applet.png
+		documentation\images\Custom_Save_Action.png = documentation\images\Custom_Save_Action.png
 		documentation\images\deal-with-it.gif = documentation\images\deal-with-it.gif
 		documentation\images\hackathon.png = documentation\images\hackathon.png
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\login.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\login.png
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_Accounts_Account.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_Accounts_Account.png
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT.png
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Events_Event.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Events_Event.png
-		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Logging.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Logging.png
+		documentation\images\IFTTT_Platform_New_Applet.png = documentation\images\IFTTT_Platform_New_Applet.png
+		documentation\images\IFTTT_Service.png = documentation\images\IFTTT_Service.png
+		documentation\images\login.png = documentation\images\login.png
+		documentation\images\System_Modules_Accounts_Account.png = documentation\images\System_Modules_Accounts_Account.png
+		documentation\images\System_Modules_IFTTT.png = documentation\images\System_Modules_IFTTT.png
+		documentation\images\System_Modules_IFTTT_Events_Event.png = documentation\images\System_Modules_IFTTT_Events_Event.png
+		documentation\images\System_Modules_IFTTT_Logging.png = documentation\images\System_Modules_IFTTT_Logging.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{007CD5DC-0030-460D-91A3-3DDEA9AB472F}"
@@ -55,7 +58,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0BF6
 		webpack.config.js = webpack.config.js
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.Feature.IFTTT.Logging", "src\Feature\Logging\Code\Community.Feature.IFTTT.Logging.csproj", "{47585296-8047-49DF-AD3C-44C66D78B5F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.Feature.IFTTT.Logging", "src\Feature\IFTTT\Community.Feature.IFTTT.Logging\Community.Feature.IFTTT.Logging.csproj", "{47585296-8047-49DF-AD3C-44C66D78B5F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.Feature.IFTTT.Forms", "src\Feature\IFTTT\Community.Feature.IFTTT.Forms\Community.Feature.IFTTT.Forms.csproj", "{147B4CF5-35E9-4EF4-8C6A-957776AB833C}"
 EndProject
