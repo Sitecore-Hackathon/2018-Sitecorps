@@ -1,0 +1,119 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>ConneX with IFTTT Module - Demo Item and Files</PackageName>
+      <Author>Mohammed Syam &amp; Ahmed Okour &amp; James Gregroy</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>Sitecorps Team</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Contact Us/{1671DE07-9609-4603-9062-388B93F6D69F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Contact Us/Success/{24A0A464-0ACF-49F3-8F44-9EF46F18B527}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Demo/{8A3C3049-5ADD-46A1-A632-EE77D1E4BAD8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Event/{B91871B3-1F40-4953-ABBB-8F8BE6FB510F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Test/{14A07FD4-EE75-4D1A-B219-D2E2B984A468}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/{96EB86B2-3DE6-4B77-B98F-F2D9FA541B60}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/{C7F1E0D2-B076-4BF7-8448-AB1872321BB4}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Email/{A6DD4EB9-0B18-4FEF-9257-CB9DDD0874AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Single-Line Text/{69ABCFEB-FAE6-4938-969D-B1CD4593140C}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Single-Line Text/{81E1A46A-D376-4A6D-86ED-4ED801CF5064}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Submit Button/{CE1803A6-B85F-4895-BED7-EBC317910E0E}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Submit Button/SubmitActions/{A959235B-0991-41B4-8606-000F518DC267}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Submit Button/SubmitActions/Redirect to Page/{8E935E51-F815-48D7-83C6-61C2B3611D74}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Contact Us/Page/Submit Button/SubmitActions/Sales Force Lead Action/{41EAFE30-2CB5-4B04-927A-5F08C1018730}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/{DA04B275-8838-4A3A-AFEE-817CF1FDD2EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/Common/{86EA4835-4BF0-4276-A060-09979E9D70C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/Common/Forms MVC Layout/{EF3104C7-EE70-49A3-91B0-C7F99BA4ED7B}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Project/Common/MVC Layout/{A0427595-D701-430C-96BC-5DAD8CFB1769}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Sample Layout/{14030E9F-CE92-49C6-AD87-7D49B50E42EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/{DA61AD50-8FDB-4252-A68F-B4470B1C9FE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/IFTTT/{594F394E-D927-43EB-B4DB-67F156A96916}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/IFTTT/Trigger/{66F2B38B-0084-4424-91BB-2E3F12641206}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/{1995806F-0A84-42B5-93B0-88F0E2FF872C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/Common/{4E9EB26E-B19F-4C2B-BF39-F93A6933947F}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Project/Common/Sample/{A26D9E39-F0FA-4F85-BA7A-BC7EF4C81BB3}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Sample/{1936B96E-DA1F-4A3A-8AAF-8C46268E2D84}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Sample/Sample Rendering/{493B3A83-0FA7-4484-8FC9-4680991CF743}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/default.css</x-item>
+        <x-item>/end.aspx</x-item>
+        <x-item>/Views/</x-item>
+        <x-item>/Views/FormBuilder/</x-item>
+        <x-item>/Views/FormBuilder/Field.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Button.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Checkbox.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/CheckboxList.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Date.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/DropdownList.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Email.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/ListBox.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/MultipleLineText.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Number.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Page.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Password.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/PasswordConfirmation.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/RadioButtonList.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Section.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/SingleLineText.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Telephone.cshtml</x-item>
+        <x-item>/Views/FormBuilder/FieldTemplates/Text.cshtml</x-item>
+        <x-item>/Views/FormBuilder/Form.cshtml</x-item>
+        <x-item>/Views/FormBuilder/web.config</x-item>
+        <x-item>/Views/Forms MVC Layout - Copy.cshtml</x-item>
+        <x-item>/Views/Forms MVC Layout.cshtml</x-item>
+        <x-item>/Views/MVC Layout.cshtml</x-item>
+        <x-item>/Views/MVCOuterLayout.cshtml</x-item>
+        <x-item>/Views/SalesForceActionSettings/</x-item>
+        <x-item>/Views/SalesForceActionSettings/SalesForceActionSettings.cshtml</x-item>
+        <x-item>/Views/Sample/</x-item>
+        <x-item>/Views/Sample/Sample.cshtml</x-item>
+        <x-item>/Views/Shared/</x-item>
+        <x-item>/Views/Shared/ExperienceExplorerView.cshtml</x-item>
+        <x-item>/Views/Shared/Layout.cshtml</x-item>
+        <x-item>/Views/Web.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

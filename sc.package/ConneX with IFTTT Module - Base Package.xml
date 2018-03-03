@@ -1,0 +1,746 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>ConneX with IFTTT Module - Base Package</PackageName>
+      <Author>Mohammed Syam &amp; Ahmed Okour &amp; James Gregroy</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher> Sitecorps Team</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Modules/IFTTT/{BF0897FB-C36C-4C08-BF74-6816EBDDCAFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Accounts/{D7B08E77-A7AA-41D7-A7E9-60239D3156F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Accounts/ahmed/{823DA315-2550-4000-8B35-952B3E311EBF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Accounts/James/{26379FB1-677E-4E18-9653-94BFA2D03941}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Accounts/Mohammed/{D8E1A1C8-E604-46C4-9E60-BE4DEB00627F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Events/{DEFAD90E-A558-4690-ADF6-D36F0674F2F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Events/Form Submitted/{039C48D7-0A80-4F77-A199-6BFE09B705E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Events/Item Added/{6C06175A-846F-436C-A49A-8462F67A27A5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Events/Logs - Fatal Error/{4E90DB5E-44F9-45BB-A864-E88FC0F781D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/{79880B70-AF3D-41C2-81F4-F461AB62E814}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/Global Event Rules/{775F8FCE-09A7-4216-9C5B-BA3A4CE92C9B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/Global Event Rules/New Article/{528BCC68-29B0-4096-9439-A79A789D56AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/Global Event Rules/Page Event/{CA2E8638-AC46-498B-BD3B-CD0C03259855}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/Global Logging Rules/{9C3BBE7E-DA75-43B6-9EAE-E0678CEF6E2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Rules/Global Logging Rules/Fatal error/{27E279F3-1A3C-4818-AD37-AD242EF9A79A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/{60027E5C-5424-4EBF-9B0B-7C86C643FECA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Supported Events/{1496BC35-48AF-47AB-89B6-DE5D952AF357}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Supported Events/item added remote/{A9873C13-3D69-4F5A-89DE-4F573DBE7F55}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Supported Events/item added/{2AAA6F46-F190-48CD-AF33-D868753407BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Supported Events/item deleted remote/{C389A619-53BB-4FDD-AA5F-07660873DA0A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Supported Events/item deleted/{26C3846D-10A1-4806-82DC-C9908BEAF450}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Value Options/{CE0C7776-DB2E-4291-BCEF-60ABEF734D56}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Value Options/Value1/{AD89FB19-BBCF-47CF-927D-612EA7464BC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Value Options/Value2/{F4BCFCEA-2712-453C-87DF-02F833A98CEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/IFTTT/Settings/Value Options/Value3/{2FD0C952-3C26-4B17-B671-103F60B1792C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/IFTTT Trigger/{19A80C99-E6B5-454F-8553-8C7AFECC995F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/IFTTT Trigger/Parameters/{932BCD83-469B-40FD-9A1A-E6050167D488}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/IFTTT Trigger/Paths/{B5AA8CB0-D1EE-447F-BD82-A6FF5407BDBC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/IFTTT Trigger/Paths/Success/{B19C0721-18E8-441F-BE02-F8D6AD32AB5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Sales Force Lead Action/{2D80BE87-6E56-4E73-B4AB-42DB5FF3FCD6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/{CA623119-6389-4B8A-9130-A9CC8DBD6C05}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/On Event Value/{A9918AF7-7A19-4417-8CC6-2F8D7E73999B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/On Event/{249F3BB2-4E24-4214-97D2-B6058D974D18}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/On Page Event/{C622E1A0-F3D8-4760-A342-540B09A020B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Set Event Data to Url/{D94798E0-DF6B-4C25-8327-721DF11244D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Set Event Data/{4751C723-508B-4E09-A4FB-09FFAF0C99CF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Tags/{878540C5-D326-429E-984B-17A1DA8742B3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Tags/Default/{84B2C411-F6A9-4493-9C84-77F9441A01E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Trigger/{8CCF526E-C8D4-442B-B254-800ECB376193}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Visibility/{F992F6D2-EF11-4800-BB5B-4F04FEC4B156}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/{68713E69-7AF3-4BAA-9923-D6B3F2685321}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/Logger/{DECBD60C-47E0-4120-87BA-CD590C07698E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/Tags/{01BA9B8A-86D5-4977-B837-3A57CFF20980}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/Tags/Default/{7B85B8C4-2186-4593-9076-4F8545E43B93}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/Trigger/{251335EB-058E-4B19-8764-F966B90036B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Logging/Visibility/{E14D8997-15F0-4F42-88E2-F1769733D268}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/IFTTT Events/{3AE716BA-7132-447A-93E5-7B07AFCD8281}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/IFTTT Events/Visibility/{C7DA46DF-854A-4FC2-A91C-B8FE4432349E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/IFTTT Logging/{22DD2770-1901-41E3-9627-03EB00BC60AE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/IFTTT Logging/Visibility/{9D02B8A2-A674-452B-947D-AF15EB8ECBE1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Events/{4A40342B-1944-4E5A-A9B4-0777305C0715}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Events/Rules/{7515CB60-866A-4602-91DA-646E6F665069}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Events/Tags/{EE07B549-8174-4B10-8682-8EB50D9538D6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Events/Tags/Default/{A544AA50-7562-4CD9-BA92-CBAAAF1B0DA7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Logging/{0D10FA2F-3E81-42E9-AB94-5BE44E2E5A22}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Logging/Rules/{3417E2B1-E940-415A-81CD-B761373605D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Logging/Tags/{3C48CE21-6D7D-4BE9-8B44-63E5690FA743}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/IFTTT Logging/Tags/Default/{B5266350-71AA-4BE0-B827-93A4B2B815B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/{26A7A628-60B6-4462-B4D2-D73B93047507}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rule/__Standard Values/{2C2ADDE3-2853-4F29-A849-7E097D714B49}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rule/{11D160CF-D33E-4343-B7B8-83BD7A5D4657}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rule/Rules/{AF4BF7ED-450A-429B-BF73-8B04E3A8000C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rule/Rules/Rule/{2899B8F9-70C2-4B53-A89C-872CFC7E2047}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rules Folder/__Standard Values/{F8A04D22-641C-49F1-AD99-48F5F8E02CDC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT Logging/Logging Rules Folder/{EE854A7E-84AD-4067-BA12-12DBEF278864}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/{E2093BA5-F8B0-4BAC-93FC-3E3053438D5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/{E8CE0D57-73E3-41B7-B1EA-F63F4EB5AE56}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Account/{5D2AF9C0-FC34-428D-A0B1-62DF4ECE58DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Account/IFTTT/{543D1ABE-F7B2-4122-87CC-6FB8FCEC0236}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Account/IFTTT/MakerKey/{7AE5C19B-3D61-4860-9DC2-737A9668E41C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Event/{F858854C-9273-48F1-B7EB-6DF94FCEFE14}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Event/IFTTT/{902772BA-AA85-4DE2-8234-BBE74B30A866}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Data/Event/IFTTT/Event/{514E2D42-262C-48B1-BDFA-E6244DA96D1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/{3FDEED96-317D-4A94-A0B8-FB13CE449103}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/Page/__Standard Values/{4533A891-FA16-4E5A-8BAA-8FB7C3892973}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/Page/{1FA00113-D3BF-4694-9265-627B0C7C542E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/Page/Data/{B264EDFA-6660-4BDC-81E3-D7BC9D065872}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/Page/Data/Text/{4202F4DE-F944-4B41-9348-A08063FC46C4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Pages/Page/Data/Title/{4513DD74-213C-42FA-9CB2-B1294C1120F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/{934E78C4-4768-495C-8088-FD03DE4D093C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/__Standard Values/{723F896C-2FF2-4B5C-A14A-E49E1083CE43}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/{43343EBA-D38E-419C-A85D-9BE2665CFF53}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/{F12444F1-F236-46D8-99DC-66DBD8293233}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Event/{5164E1D8-D3A2-4B2E-89A8-AB20ED056ECF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/MakerKey/{2159DAD8-8D69-4556-AF1F-05B73D97F522}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Threshold/{4DC18C34-F7DF-4B22-A619-605B669EC8E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Value1/{BB001DEE-C109-4EE4-904D-8F0B28540D5C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Value2/{4D3F5774-88AE-48B9-9128-A34B74F074A7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Value3/{99EC90AB-5D2D-4D20-8895-DD2A60BC4A66}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/{6ADF26BB-4319-4593-B47D-F39001D5DB91}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rule/__Standard Values/{99D17E7F-D3C5-4D5D-944B-F54EA210AF1A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rule/{EA6FE320-8507-4F0B-9573-D4BF44DF6940}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rule/Data/{B098F3B3-DF05-4971-9D21-7A86A9DC5032}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rule/Data/Name/{19BF46AB-C53E-4CD7-A559-93782B286876}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rule/Data/Rule/{9C376C81-50EE-4B57-899C-3F91FA97BE51}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rules Folder/__Standard Values/{ABBC3D19-1FF8-4D39-9648-C69F4489BE2F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Rules/Event Rules Folder/{CCC2B317-F7BC-42BA-97D4-B32431964795}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Settings/{D80146F2-4072-4647-B140-C303EA4850BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/IFTTT/Settings/Supported Sitecore Event/{7EF1664B-C3B5-4535-BA39-8341C264323B}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ConneX with IFTTT Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Feature/Feature.IFTTT.config</x-item>
+        <x-item>/App_Config/Include/Feature/Feature.IFTTT.EventHandlers.config</x-item>
+        <x-item>/App_Config/Include/Feature/Feature.IFTTT.Logging.config</x-item>
+        <x-item>/App_Config/Include/Foundation/Foundation.Mvc.config</x-item>
+        <x-item>/App_Config/Include/Project/Project.Common.config</x-item>
+        <x-item>/bin/</x-item>
+        <x-item>/bin/Antlr3.Runtime.dll</x-item>
+        <x-item>/bin/ChilkatDotNet46.dll</x-item>
+        <x-item>/bin/Community.Feature.IFTTT.dll</x-item>
+        <x-item>/bin/Community.Feature.IFTTT.Forms.dll</x-item>
+        <x-item>/bin/Community.Feature.IFTTT.Logging.dll</x-item>
+        <x-item>/bin/Community.Feature.IFTTT.Logging.pdb</x-item>
+        <x-item>/bin/Community.Feature.IFTTT.pdb</x-item>
+        <x-item>/bin/Community.Foundation.Mvc.dll</x-item>
+        <x-item>/bin/Community.Foundation.Mvc.pdb</x-item>
+        <x-item>/bin/ComponentArt.UIFramework.lic</x-item>
+        <x-item>/bin/ComponentArt.Web.UI.dll</x-item>
+        <x-item>/bin/Configy.dll</x-item>
+        <x-item>/bin/EcmaScript.NET.dll</x-item>
+        <x-item>/bin/FiftyOne.Foundation.dll</x-item>
+        <x-item>/bin/HtmlAgilityPack.dll</x-item>
+        <x-item>/bin/HtmlAgilityPack.XML</x-item>
+        <x-item>/bin/ICSharpCode.SharpZipLib.dll</x-item>
+        <x-item>/bin/Iesi.Collections.dll</x-item>
+        <x-item>/bin/ITHit.WebDAV.Server.dll</x-item>
+        <x-item>/bin/ITHit.WebDAV.Server.lic</x-item>
+        <x-item>/bin/Kamsar.WebConsole.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Analyzers.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Analyzers.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Core.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Core.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.FastVectorHighlighter.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.FastVectorHighlighter.xml</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Highlighter.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Highlighter.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Memory.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Memory.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Queries.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Queries.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Regex.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Regex.xml</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.SimpleFacetedSearch.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.SimpleFacetedSearch.xml</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Snowball.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.Snowball.XML</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.SpellChecker.dll</x-item>
+        <x-item>/bin/Lucene.Net.Contrib.SpellChecker.XML</x-item>
+        <x-item>/bin/Lucene.Net.dll</x-item>
+        <x-item>/bin/Lucene.Net.XML</x-item>
+        <x-item>/bin/MarkdownSharp.dll</x-item>
+        <x-item>/bin/MicroCHAP.dll</x-item>
+        <x-item>/bin/Microsoft.AspNet.Identity.Core.dll</x-item>
+        <x-item>/bin/Microsoft.AspNet.Identity.Core.xml</x-item>
+        <x-item>/bin/Microsoft.AspNet.Identity.Owin.dll</x-item>
+        <x-item>/bin/Microsoft.AspNet.Identity.Owin.xml</x-item>
+        <x-item>/bin/Microsoft.AspNet.WebApi.Extensions.Compression.Server.dll</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Hosting.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Hosting.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Http.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Http.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Http.Features.dll</x-item>
+        <x-item>/bin/Microsoft.AspNetCore.Http.Features.xml</x-item>
+        <x-item>/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</x-item>
+        <x-item>/bin/Microsoft.DotNet.InternalAbstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.CommandLineUtils.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.CommandLineUtils.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Binder.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Binder.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.CommandLine.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.CommandLine.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.EnvironmentVariables.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.EnvironmentVariables.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.FileExtensions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.FileExtensions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Ini.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Ini.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Json.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Json.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Xml.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Configuration.Xml.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.DependencyInjection.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.DependencyInjection.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.DependencyInjection.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.DependencyModel.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileProviders.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileProviders.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileProviders.Physical.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileProviders.Physical.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileSystemGlobbing.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.FileSystemGlobbing.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Logging.Abstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Logging.Abstractions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Logging.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Logging.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Options.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Options.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.PlatformAbstractions.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.PlatformAbstractions.xml</x-item>
+        <x-item>/bin/Microsoft.Extensions.Primitives.dll</x-item>
+        <x-item>/bin/Microsoft.Extensions.Primitives.xml</x-item>
+        <x-item>/bin/Microsoft.IdentityModel.Protocol.Extensions.dll</x-item>
+        <x-item>/bin/Microsoft.IdentityModel.Protocol.Extensions.XML</x-item>
+        <x-item>/bin/Microsoft.OData.Core.dll</x-item>
+        <x-item>/bin/Microsoft.OData.Core.xml</x-item>
+        <x-item>/bin/Microsoft.OData.Edm.dll</x-item>
+        <x-item>/bin/Microsoft.OData.Edm.xml</x-item>
+        <x-item>/bin/Microsoft.Owin.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Host.SystemWeb.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Host.SystemWeb.xml</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.ActiveDirectory.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.ActiveDirectory.xml</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.Cookies.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.Cookies.xml</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.Jwt.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.Jwt.xml</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.OAuth.dll</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.OAuth.XML</x-item>
+        <x-item>/bin/Microsoft.Owin.Security.XML</x-item>
+        <x-item>/bin/Microsoft.Owin.XML</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.Common.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.Common.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Caching.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Caching.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml</x-item>
+        <x-item>/bin/Microsoft.Practices.ServiceLocation.dll</x-item>
+        <x-item>/bin/Microsoft.Practices.ServiceLocation.XML</x-item>
+        <x-item>/bin/Microsoft.ServiceBus.dll</x-item>
+        <x-item>/bin/Microsoft.ServiceBus.xml</x-item>
+        <x-item>/bin/Microsoft.Spatial.dll</x-item>
+        <x-item>/bin/Microsoft.Spatial.xml</x-item>
+        <x-item>/bin/Microsoft.Web.Infrastructure.dll</x-item>
+        <x-item>/bin/Microsoft.WindowsAzure.Configuration.dll</x-item>
+        <x-item>/bin/Microsoft.WindowsAzure.Configuration.xml</x-item>
+        <x-item>/bin/MongoDB.Bson.dll</x-item>
+        <x-item>/bin/MongoDB.Bson.xml</x-item>
+        <x-item>/bin/MongoDB.Driver.Core.dll</x-item>
+        <x-item>/bin/MongoDB.Driver.Core.xml</x-item>
+        <x-item>/bin/MongoDB.Driver.dll</x-item>
+        <x-item>/bin/MongoDB.Driver.Legacy.dll</x-item>
+        <x-item>/bin/MongoDB.Driver.Legacy.xml</x-item>
+        <x-item>/bin/MongoDB.Driver.xml</x-item>
+        <x-item>/bin/Mvp.Xml.dll</x-item>
+        <x-item>/bin/Mvp.Xml.xml</x-item>
+        <x-item>/bin/Newtonsoft.Json.dll</x-item>
+        <x-item>/bin/Newtonsoft.Json.xml</x-item>
+        <x-item>/bin/Owin.dll</x-item>
+        <x-item>/bin/protobuf-net.dll</x-item>
+        <x-item>/bin/Rainbow.dll</x-item>
+        <x-item>/bin/Rainbow.Storage.Sc.dll</x-item>
+        <x-item>/bin/Rainbow.Storage.Yaml.dll</x-item>
+        <x-item>/bin/RazorGenerator.Mvc.dll</x-item>
+        <x-item>/bin/Rebus.AzureServiceBus.dll</x-item>
+        <x-item>/bin/Rebus.AzureServiceBus.XML</x-item>
+        <x-item>/bin/Rebus.dll</x-item>
+        <x-item>/bin/Rebus.SqlServer.dll</x-item>
+        <x-item>/bin/Rebus.SqlServer.XML</x-item>
+        <x-item>/bin/Rebus.XML</x-item>
+        <x-item>/bin/Remotion.Linq.dll</x-item>
+        <x-item>/bin/Remotion.Linq.XML</x-item>
+        <x-item>/bin/roslyn/</x-item>
+        <x-item>/bin/roslyn/csc.exe</x-item>
+        <x-item>/bin/roslyn/csc.exe.config</x-item>
+        <x-item>/bin/roslyn/csc.rsp</x-item>
+        <x-item>/bin/roslyn/csi.exe</x-item>
+        <x-item>/bin/roslyn/csi.exe.config</x-item>
+        <x-item>/bin/roslyn/csi.rsp</x-item>
+        <x-item>/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CodeAnalysis.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.CSharp.Core.targets</x-item>
+        <x-item>/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll</x-item>
+        <x-item>/bin/roslyn/Microsoft.VisualBasic.Core.targets</x-item>
+        <x-item>/bin/roslyn/Microsoft.Win32.Primitives.dll</x-item>
+        <x-item>/bin/roslyn/System.AppContext.dll</x-item>
+        <x-item>/bin/roslyn/System.Collections.Immutable.dll</x-item>
+        <x-item>/bin/roslyn/System.Console.dll</x-item>
+        <x-item>/bin/roslyn/System.Diagnostics.FileVersionInfo.dll</x-item>
+        <x-item>/bin/roslyn/System.Diagnostics.Process.dll</x-item>
+        <x-item>/bin/roslyn/System.Diagnostics.StackTrace.dll</x-item>
+        <x-item>/bin/roslyn/System.IO.Compression.dll</x-item>
+        <x-item>/bin/roslyn/System.IO.FileSystem.dll</x-item>
+        <x-item>/bin/roslyn/System.IO.FileSystem.DriveInfo.dll</x-item>
+        <x-item>/bin/roslyn/System.IO.FileSystem.Primitives.dll</x-item>
+        <x-item>/bin/roslyn/System.IO.Pipes.dll</x-item>
+        <x-item>/bin/roslyn/System.Reflection.Metadata.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.AccessControl.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Claims.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Cryptography.Algorithms.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Cryptography.Encoding.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Cryptography.Primitives.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Cryptography.X509Certificates.dll</x-item>
+        <x-item>/bin/roslyn/System.Security.Principal.Windows.dll</x-item>
+        <x-item>/bin/roslyn/System.Text.Encoding.CodePages.dll</x-item>
+        <x-item>/bin/roslyn/System.Threading.Thread.dll</x-item>
+        <x-item>/bin/roslyn/System.ValueTuple.dll</x-item>
+        <x-item>/bin/roslyn/System.Xml.ReaderWriter.dll</x-item>
+        <x-item>/bin/roslyn/System.Xml.XmlDocument.dll</x-item>
+        <x-item>/bin/roslyn/System.Xml.XPath.dll</x-item>
+        <x-item>/bin/roslyn/System.Xml.XPath.XDocument.dll</x-item>
+        <x-item>/bin/roslyn/vbc.exe</x-item>
+        <x-item>/bin/roslyn/vbc.exe.config</x-item>
+        <x-item>/bin/roslyn/vbc.rsp</x-item>
+        <x-item>/bin/roslyn/VBCSCompiler.exe</x-item>
+        <x-item>/bin/roslyn/VBCSCompiler.exe.config</x-item>
+        <x-item>/bin/Sitecore.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Abstractions.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.Aggregation.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Aggregation.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Core.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.DataAccess.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Model.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Model.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.OmniChannel.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Processing.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Processing.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.RobotDetection.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Sql.dll</x-item>
+        <x-item>/bin/Sitecore.Analytics.Sql.xml</x-item>
+        <x-item>/bin/Sitecore.Analytics.XConnect.dll</x-item>
+        <x-item>/bin/Sitecore.Apps.Loader.dll</x-item>
+        <x-item>/bin/Sitecore.Buckets.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Buckets.dll</x-item>
+        <x-item>/bin/Sitecore.CES.DeviceDetection.dll</x-item>
+        <x-item>/bin/Sitecore.CES.DeviceDetection.Rules.dll</x-item>
+        <x-item>/bin/Sitecore.CES.dll</x-item>
+        <x-item>/bin/Sitecore.CES.GeoIp.dll</x-item>
+        <x-item>/bin/Sitecore.CES.GeoIp.IpFiltering.dll</x-item>
+        <x-item>/bin/Sitecore.CES.GeoIp.LegacyLocation.dll</x-item>
+        <x-item>/bin/Sitecore.Cintel.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Cintel.dll</x-item>
+        <x-item>/bin/Sitecore.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Client.LicenseOptions.dll</x-item>
+        <x-item>/bin/Sitecore.Client.XML</x-item>
+        <x-item>/bin/Sitecore.Cloud.Nexus.dll</x-item>
+        <x-item>/bin/Sitecore.Content.Services.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Azure.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Client.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Data.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Linq.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Linq.Lucene.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.Linq.Solr.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.LuceneProvider.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.LuceneProvider.dll.config</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.SolrNetExtension.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.SolrProvider.dll</x-item>
+        <x-item>/bin/Sitecore.ContentSearch.SolrProvider.dll.config</x-item>
+        <x-item>/bin/Sitecore.ContentTesting.dll</x-item>
+        <x-item>/bin/Sitecore.ContentTesting.Intelligence.dll</x-item>
+        <x-item>/bin/Sitecore.ContentTesting.Model.dll</x-item>
+        <x-item>/bin/Sitecore.ContentTesting.Model.xConnect.dll</x-item>
+        <x-item>/bin/Sitecore.ContentTesting.Mvc.dll</x-item>
+        <x-item>/bin/Sitecore.ControlPanel.dll</x-item>
+        <x-item>/bin/Sitecore.EDS.Client.dll</x-item>
+        <x-item>/bin/Sitecore.EDS.Core.dll</x-item>
+        <x-item>/bin/Sitecore.EDS.Providers.CustomSmtp.dll</x-item>
+        <x-item>/bin/Sitecore.EDS.Providers.SparkPost.dll</x-item>
+        <x-item>/bin/Sitecore.EDS.SparkPost.ClientServices.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Activities.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Application.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Cd.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Cm.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Cm.UI.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.ExperienceAnalytics.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Model.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Model.Web.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.SampleNewsletter.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.Server.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.XConnect.dll</x-item>
+        <x-item>/bin/Sitecore.EmailCampaign.XConnect.Web.dll</x-item>
+        <x-item>/bin/Sitecore.ExM.Framework.dll</x-item>
+        <x-item>/bin/Sitecore.ExM.Framework.Web.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.Aggregation.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.Api.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.Client.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.Core.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.ReAggregation.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceAnalytics.Reduce.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceContentManagement.Administration.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceEditor.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceEditor.Speak.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceEditor.Speak.Ribbon.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceExplorer.Analytics.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceExplorer.Core.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceExplorer.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceExplorer.Web.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.Analytics.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.Client.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.Data.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.Mvc.dll</x-item>
+        <x-item>/bin/Sitecore.ExperienceForms.SubmitActions.dll</x-item>
+        <x-item>/bin/Sitecore.Foundation.Serialization.dll</x-item>
+        <x-item>/bin/Sitecore.Foundation.Serialization.pdb</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.Abstractions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.Extensions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.Extensions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.WildcardMatch.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.WildcardMatch.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Common.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Conditions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Conditions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Abstractions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Common.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Common.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Extensions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Extensions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Xml.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Configuration.Xml.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Abstractions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Common.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Common.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.Azure.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.Azure.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.SqlServer.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Messaging.Rebus.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Abstractions.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Api.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Api.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Core.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Model.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Model.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Registry.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Registry.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Serialization.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.Serialization.xml</x-item>
+        <x-item>/bin/Sitecore.Framework.Rules.xml</x-item>
+        <x-item>/bin/Sitecore.FXM.Client.dll</x-item>
+        <x-item>/bin/Sitecore.FXM.Client.xml</x-item>
+        <x-item>/bin/Sitecore.FXM.dll</x-item>
+        <x-item>/bin/Sitecore.FXM.Service.dll</x-item>
+        <x-item>/bin/Sitecore.FXM.Service.xml</x-item>
+        <x-item>/bin/Sitecore.FXM.Speak.dll</x-item>
+        <x-item>/bin/Sitecore.FXM.Speak.xml</x-item>
+        <x-item>/bin/Sitecore.FXM.xml</x-item>
+        <x-item>/bin/Sitecore.ItemWebApi.dll</x-item>
+        <x-item>/bin/Sitecore.Kernel.dll</x-item>
+        <x-item>/bin/Sitecore.Kernel.xml</x-item>
+        <x-item>/bin/Sitecore.LaunchPad.dll</x-item>
+        <x-item>/bin/Sitecore.LaunchPad.dll.config</x-item>
+        <x-item>/bin/Sitecore.ListManagement.Client.dll</x-item>
+        <x-item>/bin/Sitecore.ListManagement.dll</x-item>
+        <x-item>/bin/Sitecore.ListManagement.Services.dll</x-item>
+        <x-item>/bin/Sitecore.ListManagement.Services.xml</x-item>
+        <x-item>/bin/Sitecore.ListManagement.XConnect.dll</x-item>
+        <x-item>/bin/Sitecore.ListManagement.XConnect.xml</x-item>
+        <x-item>/bin/Sitecore.ListManagement.xml</x-item>
+        <x-item>/bin/Sitecore.Logging.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Logging.dll</x-item>
+        <x-item>/bin/Sitecore.Logging.xml</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.ActivityDescriptors.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.ActivityDescriptors.Client.XML</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.ActivityDescriptors.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.ActivityDescriptors.XML</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.Client.XML</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.Models.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Automation.XML</x-item>
+        <x-item>/bin/Sitecore.Marketing.Campaigns.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Campaigns.Services.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Operations.Xdb.ReferenceData.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Operations.Xdb.ReferenceData.Model.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Operations.Xdb.ReferenceData.Service.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Search.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Segmentation.xMgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Taxonomy.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.Taxonomy.xMgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.xMgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Marketing.xMgmt.ReferenceData.dll</x-item>
+        <x-item>/bin/Sitecore.Messaging.Azure.dll</x-item>
+        <x-item>/bin/Sitecore.Messaging.dll</x-item>
+        <x-item>/bin/Sitecore.Messaging.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.Mvc.Analytics.dll</x-item>
+        <x-item>/bin/Sitecore.Mvc.DeviceSimulator.dll</x-item>
+        <x-item>/bin/Sitecore.Mvc.DeviceSimulator.dll.config</x-item>
+        <x-item>/bin/Sitecore.Mvc.dll</x-item>
+        <x-item>/bin/Sitecore.Mvc.ExperienceEditor.dll</x-item>
+        <x-item>/bin/Sitecore.Nexus.dll</x-item>
+        <x-item>/bin/Sitecore.NVelocity.dll</x-item>
+        <x-item>/bin/Sitecore.NVelocity.XML</x-item>
+        <x-item>/bin/Sitecore.Oracle.dll</x-item>
+        <x-item>/bin/Sitecore.Owin.Authentication.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Owin.Authentication.dll</x-item>
+        <x-item>/bin/Sitecore.Owin.dll</x-item>
+        <x-item>/bin/Sitecore.PathAnalyzer.Client.dll</x-item>
+        <x-item>/bin/Sitecore.PathAnalyzer.dll</x-item>
+        <x-item>/bin/Sitecore.PathAnalyzer.Services.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.WebDeploy.dll</x-item>
+        <x-item>/bin/Sitecore.Security.AntiCsrf.dll</x-item>
+        <x-item>/bin/Sitecore.SequenceAnalyzer.dll</x-item>
+        <x-item>/bin/Sitecore.Services.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Services.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Services.Infrastructure.dll</x-item>
+        <x-item>/bin/Sitecore.Services.Infrastructure.Sitecore.dll</x-item>
+        <x-item>/bin/Sitecore.SessionProvider.dll</x-item>
+        <x-item>/bin/Sitecore.SessionProvider.Memory.dll</x-item>
+        <x-item>/bin/Sitecore.SessionProvider.MongoDB.dll</x-item>
+        <x-item>/bin/Sitecore.SessionProvider.Redis.dll</x-item>
+        <x-item>/bin/Sitecore.SessionProvider.Sql.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Applications.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Components.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Components.Guidance.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Components.Web.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Integration.Services.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Integration.Spa.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.ItemWebApi.dll</x-item>
+        <x-item>/bin/Sitecore.Speak.Web.dll</x-item>
+        <x-item>/bin/Sitecore.Update.dll</x-item>
+        <x-item>/bin/Sitecore.Web.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Client.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Client.Configuration.dll.config</x-item>
+        <x-item>/bin/Sitecore.XConnect.Client.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Client.dll.config</x-item>
+        <x-item>/bin/Sitecore.XConnect.Collection.Model.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Collection.Model.XML</x-item>
+        <x-item>/bin/Sitecore.XConnect.Diagnostics.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Search.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Segmentation.Conditions.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Segmentation.Engine.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Segmentation.ExpressionBuilder.Model.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Segmentation.Predicates.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.Segmentation.Predicates.Model.dll</x-item>
+        <x-item>/bin/Sitecore.XConnect.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Client.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.Common.Web.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Common.Web.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Core.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Locators.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Locators.Xmgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Locators.Xmgmt.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Locators.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.OperationsClient.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.OperationsClient.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.OperationsClient.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.OperationsClient.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.ReportingClient.Configuration.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.ReportingClient.Configuration.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.ReportingClient.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.ReportingClient.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.SqlServer.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Tracking.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.MarketingAutomation.Tracking.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.Processing.Queue.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Processing.Queue.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Processing.Queue.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Client.Xmgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Client.Xmgmt.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Client.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Core.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Core.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Model.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Model.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Service.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Service.Xmgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Service.Xmgmt.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.Service.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.SqlServer.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.SqlServer.Xmgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.SqlServer.Xmgmt.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.ReferenceData.SqlServer.XML</x-item>
+        <x-item>/bin/Sitecore.Xdb.Reporting.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Reporting.xml</x-item>
+        <x-item>/bin/Sitecore.Xdb.Sql.Common.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Sql.Common.Xmgmt.dll</x-item>
+        <x-item>/bin/Sitecore.Xdb.Tracking.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Zip.dll</x-item>
+        <x-item>/bin/Sitecore.Zip.XML</x-item>
+        <x-item>/bin/SolrNet.dll</x-item>
+        <x-item>/bin/SolrNet.xml</x-item>
+        <x-item>/bin/StackExchange.Redis.StrongName.dll</x-item>
+        <x-item>/bin/StackExchange.Redis.StrongName.xml</x-item>
+        <x-item>/bin/System.Collections.NonGeneric.dll</x-item>
+        <x-item>/bin/System.ComponentModel.Primitives.dll</x-item>
+        <x-item>/bin/System.ComponentModel.TypeConverter.dll</x-item>
+        <x-item>/bin/System.IdentityModel.Tokens.Jwt.dll</x-item>
+        <x-item>/bin/System.IdentityModel.Tokens.Jwt.Xml</x-item>
+        <x-item>/bin/System.Interactive.Async.dll</x-item>
+        <x-item>/bin/System.Interactive.Async.Providers.dll</x-item>
+        <x-item>/bin/System.Interactive.Async.Providers.xml</x-item>
+        <x-item>/bin/System.Interactive.Async.xml</x-item>
+        <x-item>/bin/System.IO.dll</x-item>
+        <x-item>/bin/System.Linq.dll</x-item>
+        <x-item>/bin/System.Linq.Expressions.dll</x-item>
+        <x-item>/bin/System.Net.Http.Extensions.Compression.Core.dll</x-item>
+        <x-item>/bin/System.Net.Http.Formatting.dll</x-item>
+        <x-item>/bin/System.Net.Http.Formatting.xml</x-item>
+        <x-item>/bin/System.Reflection.dll</x-item>
+        <x-item>/bin/System.Runtime.dll</x-item>
+        <x-item>/bin/System.Runtime.Extensions.dll</x-item>
+        <x-item>/bin/System.Runtime.InteropServices.dll</x-item>
+        <x-item>/bin/System.Runtime.InteropServices.RuntimeInformation.dll</x-item>
+        <x-item>/bin/System.Text.Encodings.Web.dll</x-item>
+        <x-item>/bin/System.Text.Encodings.Web.xml</x-item>
+        <x-item>/bin/System.Web.Cors.dll</x-item>
+        <x-item>/bin/System.Web.Helpers.dll</x-item>
+        <x-item>/bin/System.Web.Helpers.xml</x-item>
+        <x-item>/bin/System.Web.Http.Cors.dll</x-item>
+        <x-item>/bin/System.Web.Http.Cors.xml</x-item>
+        <x-item>/bin/System.Web.Http.dll</x-item>
+        <x-item>/bin/System.Web.Http.WebHost.dll</x-item>
+        <x-item>/bin/System.Web.Http.WebHost.xml</x-item>
+        <x-item>/bin/System.Web.Http.xml</x-item>
+        <x-item>/bin/System.Web.Mvc.dll</x-item>
+        <x-item>/bin/System.Web.Mvc.xml</x-item>
+        <x-item>/bin/System.Web.OData.dll</x-item>
+        <x-item>/bin/System.Web.OData.xml</x-item>
+        <x-item>/bin/System.Web.Optimization.dll</x-item>
+        <x-item>/bin/system.web.optimization.xml</x-item>
+        <x-item>/bin/System.Web.Razor.dll</x-item>
+        <x-item>/bin/System.Web.Razor.xml</x-item>
+        <x-item>/bin/System.Web.WebPages.Deployment.dll</x-item>
+        <x-item>/bin/System.Web.WebPages.Deployment.xml</x-item>
+        <x-item>/bin/System.Web.WebPages.dll</x-item>
+        <x-item>/bin/System.Web.WebPages.Razor.dll</x-item>
+        <x-item>/bin/System.Web.WebPages.Razor.xml</x-item>
+        <x-item>/bin/System.Web.WebPages.xml</x-item>
+        <x-item>/bin/Telerik.Web.Design.dll</x-item>
+        <x-item>/bin/Telerik.Web.Device.Detection.dll</x-item>
+        <x-item>/bin/Telerik.Web.Device.Detection.xml</x-item>
+        <x-item>/bin/Telerik.Web.UI.dll</x-item>
+        <x-item>/bin/Telerik.Web.UI.Skins.dll</x-item>
+        <x-item>/bin/Telerik.Web.UI.XML</x-item>
+        <x-item>/bin/Unicorn.dll</x-item>
+        <x-item>/bin/Unicorn.Roles.dll</x-item>
+        <x-item>/bin/Unicorn.Users.dll</x-item>
+        <x-item>/bin/WebActivatorEx.dll</x-item>
+        <x-item>/bin/WebGrease.dll</x-item>
+        <x-item>/bin/Website.Project.Common.dll</x-item>
+        <x-item>/bin/Website.Project.Common.pdb</x-item>
+        <x-item>/bin/Yahoo.Yui.Compressor.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ConneX with IFTTT Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
