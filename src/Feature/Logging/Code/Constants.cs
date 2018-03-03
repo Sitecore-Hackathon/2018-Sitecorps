@@ -6,6 +6,9 @@ using System.Web;
 
 namespace Community.Feature.IFTTT.Logging
 {
+    /// <summary>
+    /// Constants class
+    /// </summary>
     public static class Constants
     {
         public static class IDs

@@ -7,6 +7,9 @@ using System.Web;
 
 namespace Community.Feature.IFTTT.Logging.Rules
 {
+    /// <summary>
+    /// Logger rule context that holds Rule related variables 
+    /// </summary>
     public class LoggerRuleContext : RuleContext
     {
         public string LogLevel { get; set; }

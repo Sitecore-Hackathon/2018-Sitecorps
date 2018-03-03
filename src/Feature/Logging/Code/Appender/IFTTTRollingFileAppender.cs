@@ -11,6 +11,9 @@ using Sitecore.SecurityModel;
 
 namespace Community.Feature.IFTTT.Logging.Appender
 {
+    /// <summary>
+    /// Extend Sitecore rolling file appender to execute IFTTT logger rules 
+    /// </summary>
     public class IFTTTRollingFileAppender: log4net.Appender.RollingFileAppender
     {
         static Database webDb = Sitecore.Configuration.Factory.GetDatabase("web");
@@ -29,8 +32,7 @@ namespace Community.Feature.IFTTT.Logging.Appender
         ///<summary>
         /// runs the set of rules and checks for any matches, if it finds a match it will run the rule's associated action
         /// </summary>
-        /// <param name="Root">Item which holds the field</param>
-        /// <param name="Field">the rule field name</param>
+        /// <param name="ruleContext">Rule context that holds log parameters</param>
         /// <returns></returns>
         public static void RunRules(LoggerRuleContext ruleContext)
         {

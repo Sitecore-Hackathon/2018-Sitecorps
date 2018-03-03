@@ -7,6 +7,10 @@ using System.Web;
 
 namespace Community.Feature.IFTTT.Logging.Rules
 {
+    /// <summary>
+    /// Logger condition that validate if the current log message matches one of the defined conditions
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class LoggerCondition<T> : StringOperatorCondition<T> where T : LoggerRuleContext
     {
         public string logText { get; set; }
@@ -20,6 +24,11 @@ namespace Community.Feature.IFTTT.Logging.Rules
             return Compare(loggerRuleContext.LogText, logText) && MeetsThreshold(loggerRuleContext);
         }
 
+        /// <summary>
+        /// Each log condition have threshold that it needs to meet, for example a specific log message should get written x number of times before triggering the action
+        /// </summary>
+        /// <param name="loggerRuleContext"></param>
+        /// <returns></returns>
         private bool MeetsThreshold(LoggerRuleContext loggerRuleContext)
         {
             string thresholdKey = loggerRuleContext.ItemId.ToString() + logCount;

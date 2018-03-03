@@ -7,9 +7,19 @@ using Sitecore.Rules.Actions;
 
 namespace Community.Feature.IFTTT.Logging.Rules
 {
+    /// <summary>
+    /// Trigger IFTTT event action
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class TriggerAction<T> : RuleAction<T> where T : LoggerRuleContext
     {
+        /// <summary>
+        /// Maker Key
+        /// </summary>
         public ID IftttAccountId { get; set; }
+        /// <summary>
+        /// Event name in IFTTT
+        /// </summary>
         public ID IftttEventId { get; set; }
 
         public override void Apply(T ruleContext)
