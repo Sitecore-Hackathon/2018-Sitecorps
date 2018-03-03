@@ -1,13 +1,5 @@
 ﻿using Community.Feature.IFTTT.Utils;
-using Newtonsoft.Json.Linq;
-using Sitecore.Diagnostics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Net.Http.Formatting;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Community.Feature.IFTTT.Services
@@ -32,8 +24,8 @@ namespace Community.Feature.IFTTT.Services
 
         public void Trigger(string makerKey, string eventName, params string[] values) {
 
-            Assert.IsNotNullOrEmpty(makerKey, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(makerKey)} is required");
-            Assert.IsNotNullOrEmpty(eventName, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(eventName)} is required");
+            //Assert.IsNotNullOrEmpty(makerKey, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(makerKey)} is required");
+            //Assert.IsNotNullOrEmpty(eventName, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(eventName)} is required");
 
             // TODO: Add proper queue for scaling
             // TODO: Add governance? - block too many requests?
@@ -47,9 +39,9 @@ namespace Community.Feature.IFTTT.Services
                 
                 var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}?value1={value1}&value2={value2}&value3={value3}";
 
-                Log.Info($"IFTTT Trigger service: {url}", this);
+                // Log.Info($"IFTTT Trigger service: {url}", this);
                 var response = Task.Run(()=> client.GetAsync(url)).Result;
-                Log.Info($"IFTTT Trigger response: {response?.StatusCode} - {response?.ReasonPhrase}", this);
+                // Log.Info($"IFTTT Trigger response: {response?.StatusCode} - {response?.ReasonPhrase}", this);
             }
         }
         
