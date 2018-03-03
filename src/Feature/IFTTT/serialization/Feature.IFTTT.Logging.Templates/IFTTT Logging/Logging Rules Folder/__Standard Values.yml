@@ -1,0 +1,23 @@
+﻿---
+ID: "f8a04d22-641c-49f1-ad99-48f5f8e02cdc"
+Parent: "ee854a7e-84ad-4067-ba12-12dbef278864"
+Template: "ee854a7e-84ad-4067-ba12-12dbef278864"
+Path: /sitecore/templates/Feature/IFTTT Logging/Logging Rules Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{11D160CF-D33E-4343-B7B8-83BD7A5D4657}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T091258Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

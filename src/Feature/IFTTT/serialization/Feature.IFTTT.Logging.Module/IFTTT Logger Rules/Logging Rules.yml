@@ -1,0 +1,14 @@
+﻿---
+ID: "9c3bbe7e-da75-43b6-9eae-e0678cef6e2c"
+Parent: "5e3e39fe-19a3-40ca-be0c-c6d9a7f571cc"
+Template: "ee854a7e-84ad-4067-ba12-12dbef278864"
+Path: /sitecore/system/Modules/IFTTT Logger Rules/Logging Rules
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T110949Z
