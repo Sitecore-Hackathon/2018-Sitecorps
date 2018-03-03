@@ -5,10 +5,16 @@ Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Feature/IFTTT/Rules/Event Rule
 DB: master
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/shape_ellipse.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{34E1F0D9-CCFF-4F03-A38D-933437AA3A2A}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{99D17E7F-D3C5-4D5D-944B-F54EA210AF1A}"
 Languages:
 - Language: en
   Versions:

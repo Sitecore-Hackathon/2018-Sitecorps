@@ -24,6 +24,16 @@ namespace Community.Feature.IFTTT.Constants
             }
         }
 
+        public struct Rules
+        {
+            // public static readonly ID Id = new ID("{F858854C-9273-48F1-B7EB-6DF94FCEFE14}");
+
+            public struct EventRule
+            {
+                public static readonly ID Id = new ID("{EA6FE320-8507-4F0B-9573-D4BF44DF6940}");
+            }
+        }
+
         public struct Account
         {
             // public static readonly ID Id = new ID("{5D2AF9C0-FC34-428D-A0B1-62DF4ECE58DB}");

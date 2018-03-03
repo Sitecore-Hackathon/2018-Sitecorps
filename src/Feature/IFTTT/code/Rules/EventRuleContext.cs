@@ -1,13 +1,18 @@
 ﻿using Sitecore.Eventing;
 using Sitecore.Rules;
 using System;
+using System.Collections.Generic;
+using Microsoft.Extensions.DependencyInjection;
+using Community.Feature.IFTTT.Services;
 
 namespace Community.Feature.IFTTT.Rules
 {
     public class EventRuleContext : RuleContext
     {
-        public object Event { get; set; }
-        public Type EventType { get; set; }
-        public EventContext EventContext { get; set; }
+        public string EventName { get; set; }
+        public string Value1 { get; set; }
+        public string Value2 { get; set; }
+        public string Value3 { get; set; }
+                
     }
 }

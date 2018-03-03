@@ -1,5 +1,6 @@
 ﻿using Sitecore.Data;
 using Sitecore.Data.Items;
+using System;
 
 namespace Community.Feature.IFTTT.Utils
 {
@@ -19,6 +20,11 @@ namespace Community.Feature.IFTTT.Utils
             db = db ?? Sitecore.Context.ContentDatabase ?? Sitecore.Context.Database;
 
             return db?.GetItem(id);
+        }
+
+        public static Item GetItemById(Guid id, Database db = null)
+        {
+            return GetItemById(new ID(id), db);
         }
     }
 }

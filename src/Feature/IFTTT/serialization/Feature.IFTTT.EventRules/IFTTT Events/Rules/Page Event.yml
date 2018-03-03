@@ -1,0 +1,49 @@
+﻿---
+ID: "ca2e8638-ac46-498b-bd3b-cd0c03259855"
+Parent: "7515cb60-866a-4602-91da-646e6f665069"
+Template: "ea6fe320-8507-4f0b-9573-d4bf44df6940"
+Path: /sitecore/system/Settings/Rules/IFTTT Events/Rules/Page Event
+DB: master
+SharedFields:
+- ID: "9c376c81-50ee-4b57-899c-3f91fa97be51"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{F78D9DC8-9B9B-4192-92A7-21B105B8F2BE}">
+        <conditions>
+          <condition
+            id="{C622E1A0-F3D8-4760-A342-540B09A020B6}"
+            uid="F8F8CF5FB40D4A8FA19D15EC11698D3A"
+            Value="{4FE4999A-F06D-4B02-9A5A-E4AFA0957010}" />
+        </conditions>
+        <actions>
+          <action
+            id="{D94798E0-DF6B-4C25-8327-721DF11244D4}"
+            uid="E8A7F684CAD447FA8BB1D6441305C89E"
+            ValueOption="{AD89FB19-BBCF-47CF-927D-612EA7464BC6}" />
+          <action
+            id="{8CCF526E-C8D4-442B-B254-800ECB376193}"
+            uid="8DA0CE622A9F4651BCAFDA6AB971E82D"
+            Event="{6C06175A-846F-436C-A49A-8462F67A27A5}"
+            MakerKey="{26379FB1-677E-4E18-9653-94BFA2D03941}"
+            Threshold="1" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19bf46ab-c53e-4cd7-a559-93782b286876"
+      Hint: Name
+      Value: Page Event
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T162423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,21 @@
+﻿---
+ID: "99d17e7f-d3c5-4d5d-944b-f54ea210af1a"
+Parent: "ea6fe320-8507-4f0b-9573-d4bf44df6940"
+Template: "ea6fe320-8507-4f0b-9573-d4bf44df6940"
+Path: /sitecore/templates/Feature/IFTTT/Rules/Event Rule/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19bf46ab-c53e-4cd7-a559-93782b286876"
+      Hint: Name
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T162457Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

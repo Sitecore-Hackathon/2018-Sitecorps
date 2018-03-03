@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 - ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
   Hint: Type
   Value: Community.Feature.IFTTT.Rules.Actions.Trigger, Community.Feature.IFTTT
@@ -25,4 +25,4 @@ Languages:
         sitecore\admin
     - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
       Hint: Text
-      Value: "trigger IFTTT [Event,Tree,root=/sitecore/system/Modules/IFTTT/Events,event] with [MakerKey,Tree,root=/sitecore/system/Modules/IFTTT/Accounts,account]"
+      Value: "trigger IFTTT [Event,Tree,root=/sitecore/system/Modules/IFTTT/Events,event] with [MakerKey,Tree,root=/sitecore/system/Modules/IFTTT/Accounts,account] after [Threshold,Integer,,x] occurrences"

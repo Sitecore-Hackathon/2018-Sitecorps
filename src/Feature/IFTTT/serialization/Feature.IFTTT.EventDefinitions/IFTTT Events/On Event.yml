@@ -25,4 +25,4 @@ Languages:
         sitecore\admin
     - ID: "af321234-4eb9-4ef5-9197-65903351939c"
       Hint: Text
-      Value: "when event name [operatorid,StringOperator,,compares to] [Value,,,value] and occurs [Threshold,,,x] time(s)"
+      Value: "when event [Value,Tree,root=/sitecore/system/Modules/IFTTT/Settings/Supported Events,event name]"

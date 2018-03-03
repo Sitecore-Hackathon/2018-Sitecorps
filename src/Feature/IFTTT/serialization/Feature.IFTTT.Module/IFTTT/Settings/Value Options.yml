@@ -1,0 +1,14 @@
+﻿---
+ID: "ce0c7776-db2e-4291-bcef-60abef734d56"
+Parent: "60027e5c-5424-4ebf-9b0b-7c86c643feca"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: /sitecore/system/Modules/IFTTT/Settings/Value Options
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T181451Z
