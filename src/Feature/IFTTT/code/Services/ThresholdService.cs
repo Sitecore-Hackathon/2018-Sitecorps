@@ -11,7 +11,7 @@
     {
         public bool IsMet(int threshold, string uniqueKey) {
 
-            if (threshold <= 0)
+            if (threshold <= 1)
                 return true;
 
             var key = $"ifttt_{uniqueKey}"; // set prefix to group usage and avoid conflicts

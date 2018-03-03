@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using Sitecore.Diagnostics;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Formatting;
@@ -33,26 +34,18 @@ namespace Community.Feature.IFTTT.Services
             Assert.IsNotNullOrEmpty(makerKey, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(makerKey)} is required");
             Assert.IsNotNullOrEmpty(eventName, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(eventName)} is required");
 
-            var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}";
-            Log.Info($"IFTTT Trigger service: {url}",this);
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(url);
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(JsonMediaTypeFormatter.DefaultMediaType.MediaType));
-                
                 // Handle optional ifttt data values
-                var data = (dynamic)new JObject();                
-                if(values != null && values.Any())
-                {
-                    data.Value1 = GetValue(1, values);
-                    data.Value2 = GetValue(2, values);
-                    data.Value3 = GetValue(3, values);
-                }
-                var payload = new StringContent(data.ToString(), Encoding.UTF8, JsonMediaTypeFormatter.DefaultMediaType.MediaType);
+                var value1 = GetValue(1, values);
+                var value2 = GetValue(2, values);
+                var value3 = GetValue(3, values);
+                
+                var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}?Value1={value1}&Value1={value2}&Value1={value3}";
 
-                Log.Audit($"IFTTT Trigger/{eventName}/with/key/{makerKey} [{data.Value1},{data.Value2},{data.Value3}]", this);
-                var response = Task.Run(()=> client.PostAsync(url, payload)).Result;
-                Log.Audit($"IFTTT Trigger response: {response?.StatusCode} - {response?.ReasonPhrase}", this);
+                Log.Info($"IFTTT Trigger service: {url}", this);
+                var response = Task.Run(()=> client.GetAsync(url)).Result;
+                Log.Info($"IFTTT Trigger response: {response?.StatusCode} - {response?.ReasonPhrase}", this);
             }
         }
 

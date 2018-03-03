@@ -1,0 +1,28 @@
+﻿---
+ID: "249f3bb2-4e24-4214-97d2-b6058d974d18"
+Parent: "ca623119-6389-4b8a-9130-a9cc8dbd6c05"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/On Event
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Community.Feature.IFTTT.Rules.Conditions.OnEvent, Community.Feature.IFTTT
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T053638Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "when event name [operatorid,StringOperator,,compares to] [Value,,,value] and occurs [Threshold,,,x] time(s)"

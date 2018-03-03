@@ -145,11 +145,17 @@
   <ItemGroup>
     <Compile Include="Activity\IftttActivity.cs" />
     <Compile Include="Controllers\TriggerController.cs" />
+    <Compile Include="Eventing\IftttEventProvider.cs" />
     <Compile Include="IoC\Configurator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\Actions\Trigger.cs" />
+    <Compile Include="Rules\Conditions\OnEvent.cs" />
+    <Compile Include="Rules\EventRuleContext.cs" />
+    <Compile Include="Services\RulesService.cs" />
     <Compile Include="Services\ThresholdService.cs" />
     <Compile Include="Services\IftttService.cs" />
-    <Compile Include="Templates.cs" />
+    <Compile Include="Constants\ItemIds.cs" />
+    <Compile Include="Constants\Templates.cs" />
     <Compile Include="Utils\ItemUtil.cs" />
     <Compile Include="Utils\KeyUtil.cs" />
   </ItemGroup>
@@ -159,6 +165,7 @@
   <ItemGroup>
     <Content Include="sitecore\shell\client\Applications\MarketingAutomation\plugins\IFTTT\ifttt.plugin.js" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

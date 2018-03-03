@@ -1,0 +1,23 @@
+﻿---
+ID: "a544aa50-7562-4cd9-ba92-cbaaaf1b0da7"
+Parent: "ee07b549-8174-4b10-8682-8eb50d9538d6"
+Template: "854ba861-63ea-4a0c-8c7b-541e9a7ec4c1"
+Path: /sitecore/system/Settings/Rules/IFTTT Events/Tags/Default
+DB: master
+BranchID: "bdc41fdd-a3ac-4b69-a0ba-471c425cb083"
+SharedFields:
+- ID: "42f77151-098f-496a-94cf-590b7edeeabe"
+  Hint: Tags
+  Type: Multilist
+  Value: "{3AE716BA-7132-447A-93E5-7B07AFCD8281}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{38069D83-16E5-4533-998A-E9E9E13B508D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T052715Z
