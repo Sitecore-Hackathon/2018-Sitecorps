@@ -46,39 +46,39 @@ Following is a step by step description with screenshots of how you can use the 
 2. Once user has the above, user can create webhocks to be called by any type of trigger from within Sitecore, following are screenshots for creating a new applet (platform.IFTTT site) in addition to service at ( IFTTT site ).
 
 
-![Module Logo](documentation/images/IFTTT_Platform_New Applet.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/IFTTT_Platform_New_Applet.png?raw=true "IFTTT_Platform_New_Applet")
 
 Create new applet 1
 
-![Module Logo](documentation/images/Create New Applet.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/Create_New_Applet.png?raw=true "Create_New_Applet")
 
 Create new applet 2
 
-![Module Logo](documentation/images/IFTTT_Service.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/IFTTT_Service.png?raw=true "IFTTT_Service")
 
 IFTTT Service
 
 3. Once you have the above you can go to sitecore and set an account and event under module defintion:
 
-![Module Logo](documentation/images/System_Modules_IFTTT.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/System_Modules_IFTTT.png?raw=true "System_Modules_IFTTT")
 
 following is even item:
 
-![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "System_Modules_Accounts_Account")
 
 Following is an account item:
 
 
-![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/System_Modules_Accounts_Account.png?raw=true "System_Modules_Accounts_Account")
 
 
 4. Now you can use any of the integrations we already built, like as example logging using the rule engine as follows:
 
-![Module Logo](documentation/images/System_Modules_IFTTT_Logging.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/System_Modules_IFTTT_Logging.png?raw=true "System_Modules_IFTTT_Logging")
 
 also, you can check the Sales force lead custom save action using sitecore forms as following:
 
-![Module Logo](documentation/images/Custom Save Action.png?raw=true "Hackathon Logo")
+![Module Logo](documentation/images/Custom_Save_Action.png?raw=true "custom save action")
 
 
 
