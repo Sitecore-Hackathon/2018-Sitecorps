@@ -68,9 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ifttt\ifttt-activity.js.map" />
     <None Include="packages.config" />
-    <Content Include="tsconfig.aot.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,20 +78,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ifttt\ifttt-activity.js" />
+    <Content Include="ifttt\ifttt-activity.js.map" />
     <Content Include="ReadMe-HowToDeploy.txt" />
+    <Content Include="tsconfig.aot.json" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Include="ifttt.plugin.ts" />
     <TypeScriptCompile Include="ifttt\editor\ifttt-editor.component.ts" />
     <TypeScriptCompile Include="ifttt\ifttt-activity.ts" />
     <TypeScriptCompile Include="ifttt\ifttt.module.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
