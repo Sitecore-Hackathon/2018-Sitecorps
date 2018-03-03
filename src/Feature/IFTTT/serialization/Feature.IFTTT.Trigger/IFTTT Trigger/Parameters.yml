@@ -1,0 +1,23 @@
+﻿---
+ID: "932bcd83-469b-40fd-9a1a-e6050167d488"
+Parent: "19a80c99-e6b5-454f-8553-8c7afecc995f"
+Template: "6ea02006-b973-4826-bdfc-c8122c7b865a"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/IFTTT Trigger/Parameters
+DB: master
+BranchID: "922570a5-c76a-424a-9e2c-e2d7c2d7ec0e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F9952D92-6CE6-43FF-A322-186650462DF6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180210T062317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

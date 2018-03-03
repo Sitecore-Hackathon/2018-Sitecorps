@@ -1,0 +1,24 @@
+﻿---
+ID: "5164e1d8-d3a2-4b2e-89a8-ab20ed056ecf"
+Parent: "f12444f1-f236-46d8-99dc-66dbd8293233"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/IFTTT/Event
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{DEFAD90E-A558-4690-ADF6-D36F0674F2F8}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T181323Z

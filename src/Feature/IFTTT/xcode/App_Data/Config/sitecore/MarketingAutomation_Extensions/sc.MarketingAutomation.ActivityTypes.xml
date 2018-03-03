@@ -1,0 +1,35 @@
+﻿<Settings>
+    <!--
+    Marketing Automation activity type registrations.
+  -->
+    <Sitecore>
+        <XConnect>
+            <MarketingAutomation>
+                <Engine>
+                    <Services>
+                        <IFTTT.Service>
+                            <Type>Community.Feature.IFTTT.Services.IftttService, Community.Feature.IFTTT</Type>
+                            <As>Community.Feature.IFTTT.Services.IIftttService, Community.Feature.IFTTT</As>
+                            <LifeTime>Singleton</LifeTime>
+                        </IFTTT.Service>
+                        <IFTTT.ThresholdService>
+                            <Type>Community.Feature.IFTTT.Services.ThresholdService, Community.Feature.IFTTT</Type>
+                            <As>Community.Feature.IFTTT.Services.IThresholdService, Community.Feature.IFTTT</As>
+                            <LifeTime>Singleton</LifeTime>
+                        </IFTTT.ThresholdService>
+                    </Services>
+                </Engine>
+            </MarketingAutomation>
+            <Services>
+                <MarketingAutomation.Activity.IFTTT>
+                    <Type>Sitecore.Xdb.MarketingAutomation.Locator.ActivityTypeRegistration, Sitecore.Xdb.MarketingAutomation</Type>
+                    <LifeTime>Singleton</LifeTime>
+                    <Options>
+                        <Id>{19A80C99-E6B5-454F-8553-8C7AFECC995F}</Id>
+                        <ImplementationType>Community.Feature.IFTTT.Activity.IftttActivity, Community.Feature.IFTTT</ImplementationType>
+                    </Options>
+                </MarketingAutomation.Activity.IFTTT>
+            </Services>
+        </XConnect>
+    </Sitecore>
+</Settings>

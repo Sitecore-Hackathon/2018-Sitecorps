@@ -1,0 +1,42 @@
+﻿---
+ID: "8a3c3049-5add-46a1-a632-ee77d1e4bad8"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home/Demo
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        id="{28A7C944-B8B6-45AD-A635-6F72E8F81F69}"
+        name="Instant Demo" />
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180213T035909Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Demo
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <p>You have now been entered into the Demo Marketing Automation</p>
+        <p><a href="/end.aspx">End session</a>.</p>

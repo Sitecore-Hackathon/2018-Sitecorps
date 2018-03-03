@@ -1,0 +1,14 @@
+﻿---
+ID: "723f896c-2ff2-4b5c-a14a-e49e1083ce43"
+Parent: "43343eba-d38e-419c-a85d-9be2665cff53"
+Template: "43343eba-d38e-419c-a85d-9be2665cff53"
+Path: /sitecore/templates/Feature/IFTTT/Rendering Parameters/IFTTT Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T195237Z

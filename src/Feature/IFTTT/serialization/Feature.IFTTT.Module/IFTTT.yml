@@ -1,0 +1,18 @@
+﻿---
+ID: "bf0897fb-c36c-4c08-bf74-6816ebddcafa"
+Parent: "08477468-d438-43d4-9d6a-6d84a611971c"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: /sitecore/system/Modules/IFTTT
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/antenna.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T181451Z

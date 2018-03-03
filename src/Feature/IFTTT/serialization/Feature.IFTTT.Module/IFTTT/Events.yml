@@ -1,0 +1,19 @@
+﻿---
+ID: "defad90e-a558-4690-adf6-d36f0674f2f8"
+Parent: "bf0897fb-c36c-4c08-bf74-6816ebddcafa"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: /sitecore/system/Modules/IFTTT/Events
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F858854C-9273-48F1-B7EB-6DF94FCEFE14}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T181451Z

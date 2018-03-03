@@ -1,0 +1,32 @@
+﻿---
+ID: "7ae5c19b-3d61-4860-9dc2-737a9668e41c"
+Parent: "543d1abe-f7b2-4122-87cc-6fb8fcec0236"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/IFTTT/Data/Account/IFTTT/MakerKey
+DB: master
+SharedFields:
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link url="https://ifttt.com/services/maker_webhooks/settings" linktype="internal" />
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Maker Key
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This is your Maker WebHook endpoint key
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180224T182149Z

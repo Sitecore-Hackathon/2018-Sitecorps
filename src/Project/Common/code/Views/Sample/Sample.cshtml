@@ -1,0 +1,7 @@
+﻿@using Sitecore.Mvc
+@model RenderingModel
+
+<h1 class="contentTitle">@Html.Sitecore().Field("Title")</h1>
+<div class="contentDescription">
+    @Html.Sitecore().Field("Text")
+</div>
