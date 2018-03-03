@@ -2,7 +2,7 @@
 ID: "6c06175a-846f-436c-a49a-8462f67a27a5"
 Parent: "defad90e-a558-4690-adf6-d36f0674f2f8"
 Template: "f858854c-9273-48f1-b7eb-6df94fcefe14"
-Path: /sitecore/system/Modules/IFTTT/Events/Test
+Path: /sitecore/system/Modules/IFTTT/Events/Sitecore Event
 DB: master
 Languages:
 - Language: en

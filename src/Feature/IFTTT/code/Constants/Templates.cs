@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Community.Feature.IFTTT
+namespace Community.Feature.IFTTT.Constants
 {
     public class Templates
     {

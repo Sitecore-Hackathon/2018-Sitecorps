@@ -1,0 +1,46 @@
+﻿---
+ID: "528bcc68-29b0-4096-9439-a79a789d56af"
+Parent: "7515cb60-866a-4602-91da-646e6f665069"
+Template: "ea6fe320-8507-4f0b-9573-d4bf44df6940"
+Path: /sitecore/system/Settings/Rules/IFTTT Events/Rules/Sample
+DB: master
+SharedFields:
+- ID: "9c376c81-50ee-4b57-899c-3f91fa97be51"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{6DE28727-62C8-4AE2-85D8-E6B2B34AD97B}">
+        <conditions>
+          <condition
+            id="{249F3BB2-4E24-4214-97D2-B6058D974D18}"
+            uid="E8EEA328E1DA4080A88CE11482D0C6A2"
+            operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+            Value="publish"
+            Threshold="3" />
+        </conditions>
+        <actions>
+          <action
+            id="{8CCF526E-C8D4-442B-B254-800ECB376193}"
+            uid="457F26B025724D678F5F49A62A799F12"
+            MakerKey="{26379FB1-677E-4E18-9653-94BFA2D03941}"
+            Event="{6C06175A-846F-436C-A49A-8462F67A27A5}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19bf46ab-c53e-4cd7-a559-93782b286876"
+      Hint: Name
+      Value: Sample
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T052838Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
