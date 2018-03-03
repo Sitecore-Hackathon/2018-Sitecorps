@@ -151,7 +151,6 @@
     <Compile Include="Rules\Actions\Trigger.cs" />
     <Compile Include="Rules\Conditions\OnEvent.cs" />
     <Compile Include="Rules\EventRuleContext.cs" />
-    <Compile Include="Services\RulesService.cs" />
     <Compile Include="Services\ThresholdService.cs" />
     <Compile Include="Services\IftttService.cs" />
     <Compile Include="Constants\ItemIds.cs" />
