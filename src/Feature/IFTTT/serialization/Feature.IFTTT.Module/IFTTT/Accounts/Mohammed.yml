@@ -1,0 +1,21 @@
+﻿---
+ID: "d8e1a1c8-e604-46c4-9e60-be4deb00627f"
+Parent: "d7b08e77-a7aa-41d7-a7e9-60239d3156f4"
+Template: "5d2af9c0-fc34-428d-a0b1-62df4ece58db"
+Path: /sitecore/system/Modules/IFTTT/Accounts/Mohammed
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T091157Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7ae5c19b-3d61-4860-9dc2-737a9668e41c"
+      Hint: MakerKey
+      Value: "gNv-mC_7ZT_6X8jR_MI6sWQQIqqReXBha0trYrP9FC6"
