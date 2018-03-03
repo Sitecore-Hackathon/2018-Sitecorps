@@ -1,0 +1,31 @@
+﻿---
+ID: "24a0a464-0acf-49f3-8f44-9ef46f18b527"
+Parent: "1671de07-9609-4603-9062-388b93f6d69f"
+Template: "1fa00113-d3bf-4694-9265-627b0c7c542e"
+Path: /sitecore/content/Home/Contact Us/Success
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3C9B0A66-7548-46FE-B1A7-64B1C0697DBD}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T092146Z
+    - ID: "4513dd74-213c-42fa-9cb2-b1294c1120f9"
+      Hint: Title
+      Value: Form submission executed successfully..
