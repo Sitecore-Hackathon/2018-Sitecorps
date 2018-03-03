@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Community.Feature.IFTTT.Utils;
+using Newtonsoft.Json.Linq;
 using Sitecore.Diagnostics;
 using System;
 using System.Collections.Generic;
@@ -34,12 +35,15 @@ namespace Community.Feature.IFTTT.Services
             Assert.IsNotNullOrEmpty(makerKey, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(makerKey)} is required");
             Assert.IsNotNullOrEmpty(eventName, $"{nameof(IftttService)}.{nameof(Trigger)} parameter {nameof(eventName)} is required");
 
+            // TODO: Add proper queue for scaling
+            // TODO: Add governance? - block too many requests?
+
             using (var client = new HttpClient())
             {
                 // Handle optional ifttt data values
-                var value1 = GetValue(1, values);
-                var value2 = GetValue(2, values);
-                var value3 = GetValue(3, values);
+                var value1 = ParamUtil.GetValue(1, values);
+                var value2 = ParamUtil.GetValue(2, values);
+                var value3 = ParamUtil.GetValue(3, values);
                 
                 var url = $"https://maker.ifttt.com/trigger/{eventName}/with/key/{makerKey}?value1={value1}&value2={value2}&value3={value3}";
 
@@ -47,18 +51,6 @@ namespace Community.Feature.IFTTT.Services
                 var response = Task.Run(()=> client.GetAsync(url)).Result;
                 Log.Info($"IFTTT Trigger response: {response?.StatusCode} - {response?.ReasonPhrase}", this);
             }
-        }
-
-        /// <summary>
-        /// Return value or null
-        /// </summary>
-        /// <param name="values">Array of values (or null)</param>
-        /// <param name="n">1 based index</param>
-        /// <returns></returns>
-        private string GetValue(int n, string[] values) {
-            if (values == null || values.Length < n)
-                return null;
-            return values[n-1];
         }
         
     }

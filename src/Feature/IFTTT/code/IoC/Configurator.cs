@@ -8,8 +8,9 @@ namespace Community.Feature.IFTTT.IoC
     {
         public void Configure(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton( typeof(IThresholdService), typeof(ThresholdService) );
-            serviceCollection.AddTransient( typeof(IIftttService), typeof(IftttService) );
+            serviceCollection.AddSingleton(typeof(IThresholdService), typeof(ThresholdService));
+            serviceCollection.AddTransient(typeof(IIftttService), typeof(IftttService));
+            serviceCollection.AddTransient(typeof(IRulesService), typeof(RulesService));
         }
     }
 }

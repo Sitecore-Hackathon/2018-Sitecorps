@@ -1,36 +1,31 @@
-﻿using Community.Feature.IFTTT.Services;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Community.Feature.IFTTT.Utils;
+using Sitecore.Data;
 using Sitecore.Diagnostics;
 using Sitecore.Rules.Conditions;
 using System;
 
 namespace Community.Feature.IFTTT.Rules.Conditions
 {
-    public class OnEvent<T> : StringOperatorCondition<T> where T : EventRuleContext
+    /// <summary>
+    /// Condition to listen for Event Type
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public class OnEvent<T> : WhenCondition<T> where T : EventRuleContext
     {
-        public string Value { get; set; }
-        public string Threshold { get; set; }
+        public ID Value { get; set; } // Supported Event ID
 
         protected override bool Execute(T ruleContext)
         {
             Assert.ArgumentNotNull((object)ruleContext, "ruleContext");
 
-            var eventName = ruleContext?.EventType?.Name;
+            var supportedEvent = ItemUtil.GetItemById(Value);
+            var eventName = supportedEvent?.DisplayName; // Convention of using display name for full event name
+
             if (String.IsNullOrEmpty(eventName))
                 return false;
 
-            return Compare(eventName, Value) && MeetsThreshold(ruleContext.EventType.Name, int.TryParse(Threshold, out int threshold)? threshold : 0);            
+            return (ruleContext?.EventName == eventName);            
         }
-
-        protected bool MeetsThreshold(string uniqueId, int threshold)
-        {
-            if (threshold <= 1)
-                return true;
-            
-            // TODO: fix issue of multiple conditions incrementing each time
-
-            var _threshold = Sitecore.DependencyInjection.ServiceLocator.ServiceProvider.GetService<IThresholdService>();
-            return _threshold.IsMet(threshold, $"RuleCondition_OnEvent_{uniqueId}");
-        }
+        
     }
 }

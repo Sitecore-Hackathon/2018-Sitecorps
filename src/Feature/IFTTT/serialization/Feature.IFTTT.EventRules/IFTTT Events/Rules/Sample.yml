@@ -13,19 +13,38 @@ SharedFields:
       <rule
         uid="{6DE28727-62C8-4AE2-85D8-E6B2B34AD97B}">
         <conditions>
-          <condition
-            id="{249F3BB2-4E24-4214-97D2-B6058D974D18}"
-            uid="E8EEA328E1DA4080A88CE11482D0C6A2"
-            operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
-            Value="publish"
-            Threshold="3" />
+          <and
+            uid="862555352E594B4E8EC5E4E046AA40C3">
+            <condition
+              id="{249F3BB2-4E24-4214-97D2-B6058D974D18}"
+              uid="E8EEA328E1DA4080A88CE11482D0C6A2"
+              operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+              Value="{2AAA6F46-F190-48CD-AF33-D868753407BF}"
+              Threshold="3" />
+            <condition
+              id="{A9918AF7-7A19-4417-8CC6-2F8D7E73999B}"
+              uid="91A908371E464E1CAE19C205CE2E5FBC"
+              ValueOption="{AD89FB19-BBCF-47CF-927D-612EA7464BC6}"
+              operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+              Value="Sample Item" />
+          </and>
         </conditions>
         <actions>
           <action
+            id="{D94798E0-DF6B-4C25-8327-721DF11244D4}"
+            uid="0A7474B3B2A84A558EAAD8F5A7B16F5F"
+            ValueOption="{F4BCFCEA-2712-453C-87DF-02F833A98CEA}" />
+          <action
+            id="{4751C723-508B-4E09-A4FB-09FFAF0C99CF}"
+            uid="B256E7E6A8764FD9A5A70992413408A1"
+            ValueOption="{2FD0C952-3C26-4B17-B671-103F60B1792C}"
+            Value="Check out our new post!" />
+          <action
             id="{8CCF526E-C8D4-442B-B254-800ECB376193}"
-            uid="457F26B025724D678F5F49A62A799F12"
+            uid="42848A2E46C84D16AC11912C662F1714"
+            Event="{6C06175A-846F-436C-A49A-8462F67A27A5}"
             MakerKey="{26379FB1-677E-4E18-9653-94BFA2D03941}"
-            Event="{6C06175A-846F-436C-A49A-8462F67A27A5}" />
+            Threshold="1" />
         </actions>
       </rule>
     </ruleset>

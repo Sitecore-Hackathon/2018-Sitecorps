@@ -1,8 +1,8 @@
 ﻿---
-ID: "8ccf526e-c8d4-442b-b254-800ecb376193"
+ID: "d94798e0-df6b-4c25-8327-721df11244d4"
 Parent: "ca623119-6389-4b8a-9130-a9cc8dbd6c05"
 Template: "f90052a5-b4e6-4e6d-9812-1e1b88a6fcea"
-Path: /sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Trigger
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/IFTTT Events/Set Event Data to Url
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -10,7 +10,7 @@ SharedFields:
   Value: 400
 - ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
   Hint: Type
-  Value: Community.Feature.IFTTT.Rules.Actions.Trigger, Community.Feature.IFTTT
+  Value: Community.Feature.IFTTT.Rules.Actions.SetContextUrl, Community.Feature.IFTTT
 Languages:
 - Language: en
   Versions:
@@ -25,4 +25,4 @@ Languages:
         sitecore\admin
     - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
       Hint: Text
-      Value: "trigger IFTTT [Event,Tree,root=/sitecore/system/Modules/IFTTT/Events,event] with [MakerKey,Tree,root=/sitecore/system/Modules/IFTTT/Accounts,account] after [Threshold,Integer,,x] occurrences"
+      Value: "set event [ValueOption,Tree,root=/sitecore/system/Modules/IFTTT/Settings/Value Options,data] to URL of context item"
