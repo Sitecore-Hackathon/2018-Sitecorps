@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0BF6
 		webpack.config.js = webpack.config.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{39726BC8-FF53-42BA-B418-607B080D7DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.Feature.IFTTT.Logging", "src\Feature\Logging\Code\Community.Feature.IFTTT.Logging.csproj", "{47585296-8047-49DF-AD3C-44C66D78B5F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +82,10 @@ Global
 		{54286C04-729E-4ED5-92BE-B7C2DB81661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54286C04-729E-4ED5-92BE-B7C2DB81661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54286C04-729E-4ED5-92BE-B7C2DB81661D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47585296-8047-49DF-AD3C-44C66D78B5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47585296-8047-49DF-AD3C-44C66D78B5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47585296-8047-49DF-AD3C-44C66D78B5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47585296-8047-49DF-AD3C-44C66D78B5F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,8 @@ Global
 		{7632D568-E409-44CE-ACB0-CC98891008B1} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 		{54286C04-729E-4ED5-92BE-B7C2DB81661D} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 		{0BF6AB64-0038-4DB5-BFBF-D09917A378AF} = {ADCA10F7-A1D2-407B-8074-60418168C02E}
+		{39726BC8-FF53-42BA-B418-607B080D7DB1} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{47585296-8047-49DF-AD3C-44C66D78B5F9} = {39726BC8-FF53-42BA-B418-607B080D7DB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
