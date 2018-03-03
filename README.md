@@ -23,12 +23,13 @@ We created a sample for integration with IFTTT, we used Sitecore 9 xConnect, mar
 In this part we are monitoring spacific threshold and once this reached then IFTTT will send you a notfication. 
 
 
-### 2. Logging
+### 2. Sitecore logs Monitoring --> IFTTT
+Using custom rules conditions and actions to monitor sitecore logs if specific message was written X times (eg, Fatal error), then trigger a specific IFTTT event, example : Send an email to administrators
 
-We created a new rule using sitecore rule engine to minitor the log and trigger once spacific log happened a spacific number of times which will send you a notification using IFTTT.
+### 3. Sitecore Events --> IFTTT
+Using custom rules conditions and actions to monitor specific sitecore events or page events to trigger IFTTT events
 
-
-### 3. Sitecore forms --> IFTTT --> Sales Force
+### 4. Sitecore forms --> IFTTT --> Sales Force
 
 We created new custom action "Sales Force Lead" that will trigger an event in IFTTT that will create a new lead in sales force. 
 
