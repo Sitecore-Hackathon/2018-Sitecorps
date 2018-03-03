@@ -84,5 +84,28 @@ also, you can check the Sales force lead custom save action using sitecore forms
 
 
 
+Following are detailed screenshots of Marketing automation and Events:
 
+![Events_01_NewRule](documentation/images/Events_01_NewRule.png?raw=true "Events_01_NewRule")
 
+![Events_02_Condition_OnEvent.png](documentation/images/Events_02_Condition_OnEvent.png.png?raw=true "Events_02_Condition_OnEvent.png")
+
+![Events_01_NewRule](documentation/images/Events_01_NewRule.png?raw=true "Events_01_NewRule")
+
+![Events_01_NewRule](documentation/images/Events_01_NewRule.png?raw=true "Events_01_NewRule")
+
+![Events_03_Condition_Data.png](documentation/images/Events_03_Condition_Data.png.png?raw=true "Events_03_Condition_Data")
+
+![Events_04_Condition_OnValue.png](documentation/images/Events_01_NewRule.png?raw=true "Events_04_Condition_OnValue")
+
+![Events_05_Action_Trigger.png](documentation/images/Events_05_Action_Trigger.png?raw=true "Events_05_Action_Trigger")
+
+![Events_06_Action_Data.png](documentation/images/Events_06_Action_Data.png?raw=true "Events_06_Action_Data")
+
+![Events_07_Condition_PageEvent.png](documentation/images/Events_07_Condition_PageEvent.png?raw=true "Events_07_Condition_PageEvent")
+
+![Events_08_Condition_PageEvent_Example.png](documentation/images/Events_08_Condition_PageEvent_Example.png?raw=true "Events_08_Condition_PageEvent_Example")
+
+![Automation_01.png](documentation/images/Automation_01.png?raw=true "Automation_01.png")
+
+![Automation_02.png](documentation/images/Automation_02.png?raw=true "Automation_02")
