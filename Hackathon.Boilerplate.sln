@@ -27,8 +27,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\Custom Save Action.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\Custom Save Action.png
 		documentation\images\deal-with-it.gif = documentation\images\deal-with-it.gif
 		documentation\images\hackathon.png = documentation\images\hackathon.png
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\login.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\login.png
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_Accounts_Account.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_Accounts_Account.png
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT.png
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Events_Event.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Events_Event.png
+		..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Logging.png = ..\..\..\Users\Macbook\Desktop\SC901_Hackathon_Doc\System_Modules_IFTTT_Logging.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{007CD5DC-0030-460D-91A3-3DDEA9AB472F}"
