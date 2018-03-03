@@ -4,10 +4,10 @@
   "description": "Sitecore 9 Marketing Automation IFTTT integration",
   "private": true,
   "angular-cli": {},
-  "scripts": {
-    "dev": "ngc -p ./src/Feature/IFTTT/code/tsconfig.aot.json && npm run build",
-    "build": "webpack --display-error-details"
-  },
+    "scripts": {
+        "dev": "ngc -p ./src/Feature/IFTTT/code/Community.Feature.IFTTT.Angular/tsconfig.aot.json && npm run build",
+        "build": "webpack --display-error-details"
+    },
   "dependencies": {
     "@angular/common": "4.3.5",
     "@angular/core": "4.3.5",
