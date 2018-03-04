@@ -109,3 +109,8 @@ Following are detailed screenshots of Marketing automation and Events:
 ![Automation_01.png](documentation/images/Automation_01.png?raw=true "Automation_01.png")
 
 ![Automation_02.png](documentation/images/Automation_02.png?raw=true "Automation_02")
+
+
+# Video URL
+
+https://www.youtube.com/watch?v=kUmVaFkuxoA
